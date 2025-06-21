@@ -1,4 +1,4 @@
--- Mount Data exported from Mount.csv
+
 
 MountData = {
   ["Brown Horse"] = {
