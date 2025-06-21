@@ -1,5 +1,3 @@
--- Mount Data exported from Mount.csv
-
 MountData = {
   ["Brown Horse"] = {
     source_type = "Vendor",
