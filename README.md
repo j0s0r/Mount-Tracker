@@ -108,7 +108,7 @@
 
 ## 💰 MOUNT CURRENCY ANALYSIS:
 
-- **Total Currencies Used:** 45 (out of 1,309 total currencies)  
+- **Total Currencies Used:** 45 
 - **Mounts Bought with Currencies:** 115 mounts  
 
 ### Mount Currency Categories:
