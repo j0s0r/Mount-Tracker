@@ -142,7 +142,7 @@
       "MountID": 230,
       "SpellID": 6648,
       "movement_type": "Ground",
-      "description": "Sturdy and steady; \"the horse that built Stormwind.\""
+      "description": "Sturdy and steady; 'the horse that built Stormwind.'"
     }
   },
   {
@@ -238,7 +238,7 @@
       "MountID": 230,
       "SpellID": 8394,
       "movement_type": "Ground",
-      "description": "This hearty mount's ferocious appetite earned it the nickname \"Dragon Belly\" in the night elf language."
+      "description": "This hearty mount's ferocious appetite earned it the nickname 'Dragon Belly' in the night elf language."
     }
   },
   {
@@ -278,7 +278,7 @@
       "MountID": 230,
       "SpellID": 10789,
       "movement_type": "Ground",
-      "description": "This hearty mount's ferocious appetite earned it the nickname \"Dragon Belly\" in the night elf language."
+      "description": "This hearty mount's ferocious appetite earned it the nickname 'Dragon Belly' in the night elf language."
     }
   },
   {
@@ -289,8 +289,7 @@
       "NameID": 32,
       "MountID": 230,
       "SpellID": 10790,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -370,7 +369,7 @@
       "MountID": 230,
       "SpellID": 10873,
       "movement_type": "Ground",
-      "description": "\"The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...\" -Binjy Featherwhistle"
+      "description": "'The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...' -Binjy Featherwhistle"
     }
   },
   {
@@ -384,7 +383,7 @@
       "MountID": 230,
       "SpellID": 10969,
       "movement_type": "Ground",
-      "description": "\"The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...\" -Binjy Featherwhistle"
+      "description": "'The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...' -Binjy Featherwhistle"
     }
   },
   {
@@ -407,7 +406,7 @@
       "MountID": 230,
       "SpellID": 15779,
       "movement_type": "Ground",
-      "description": "Forced to recall the model after numerous complaints of an \"uncontrollable throttle\", Gnomish engineers now refer to a proto-type blunder as a \"model B\"."
+      "description": "Forced to recall the model after numerous complaints of an 'uncontrollable throttle', Gnomish engineers now refer to a proto-type blunder as a 'model B'."
     }
   },
   {
@@ -421,7 +420,7 @@
       "MountID": 230,
       "SpellID": 15780,
       "movement_type": "Ground",
-      "description": "\"The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...\" -Binjy Featherwhistle"
+      "description": "'The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...' -Binjy Featherwhistle"
     }
   },
   {
@@ -544,7 +543,7 @@
       "MountID": 230,
       "SpellID": 17453,
       "movement_type": "Ground",
-      "description": "\"The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...\" -Binjy Featherwhistle"
+      "description": "'The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...' -Binjy Featherwhistle"
     }
   },
   {
@@ -558,7 +557,7 @@
       "MountID": 230,
       "SpellID": 17454,
       "movement_type": "Ground",
-      "description": "\"The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...\" -Binjy Featherwhistle"
+      "description": "'The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...' -Binjy Featherwhistle"
     }
   },
   {
@@ -570,7 +569,7 @@
       "MountID": 230,
       "SpellID": 17459,
       "movement_type": "Ground",
-      "description": "This historic piece of gnomish engineering was forced into retirement due to its extremely \"touchy\" gyroscometer."
+      "description": "This historic piece of gnomish engineering was forced into retirement due to its extremely 'touchy' gyroscometer."
     }
   },
   {
@@ -582,7 +581,7 @@
       "MountID": 230,
       "SpellID": 17460,
       "movement_type": "Ground",
-      "description": "I've not seen this breed in in ages, but when they're ram tough they stick around.\"\" -Veron Amberstill\""
+      "description": "I've not seen this breed in in ages, but when they're ram tough they stick around.' -Veron Amberstill'"
     }
   },
   {
@@ -675,7 +674,7 @@
       "MountID": 230,
       "SpellID": 18363,
       "movement_type": "Ground",
-      "description": "\"The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.\" - Harb Clawhoof"
+      "description": "'The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.' - Harb Clawhoof"
     }
   },
   {
@@ -689,7 +688,7 @@
       "MountID": 230,
       "SpellID": 18989,
       "movement_type": "Ground",
-      "description": "\"The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.\" - Harb Clawhoof"
+      "description": "'The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.' - Harb Clawhoof"
     }
   },
   {
@@ -715,7 +714,7 @@
       "MountID": 230,
       "SpellID": 18990,
       "movement_type": "Ground",
-      "description": "\"The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.\" - Harb Clawhoof"
+      "description": "'The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.' - Harb Clawhoof"
     }
   },
   {
@@ -739,7 +738,7 @@
       "MountID": 230,
       "SpellID": 18992,
       "movement_type": "Ground",
-      "description": "\"The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.\" - Harb Clawhoof"
+      "description": "'The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.' - Harb Clawhoof"
     }
   },
   {
@@ -1581,7 +1580,7 @@
       "MountID": 230,
       "SpellID": 33630,
       "movement_type": "Ground",
-      "description": "\"The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...\" -Binjy Featherwhistle"
+      "description": "'The terradynamic exo-plotters are conjoined by hydraulic imaging to the equilibrium enhancers...' -Binjy Featherwhistle"
     }
   },
   {
@@ -1595,7 +1594,7 @@
       "MountID": 230,
       "SpellID": 33660,
       "movement_type": "Ground",
-      "description": "\"Their plumage is more beautiful than any other. Subtlety is for the birds! I mean... other birds.\" -Viera Sunwhisper"
+      "description": "'Their plumage is more beautiful than any other. Subtlety is for the birds! I mean... other birds.' -Viera Sunwhisper"
     }
   },
   {
@@ -2254,7 +2253,7 @@
       "MountID": 230,
       "SpellID": 43899,
       "movement_type": "Ground",
-      "description": "Brewers retired this mount from active advertising service after complaints that the beasts were \"too temperamental\" to control in major cities."
+      "description": "Brewers retired this mount from active advertising service after complaints that the beasts were 'too temperamental' to control in major cities."
     }
   },
   {
@@ -2554,7 +2553,7 @@
       "MountID": 230,
       "SpellID": 58983,
       "movement_type": "Ground",
-      "description": "Whenever you ride this mount, you feel the urge to shout, \"Cry havoc and let slip the murlocs of war!\""
+      "description": "Whenever you ride this mount, you feel the urge to shout, 'Cry havoc and let slip the murlocs of war!'"
     }
   },
   {
@@ -2847,7 +2846,7 @@
       "MountID": 230,
       "SpellID": 60116,
       "movement_type": "Ground",
-      "description": "Your cries of \"For the Horde!\" will be much more menacing from atop a heavily armored bear that's barreling down on Alliance at top speed."
+      "description": "Your cries of 'For the Horde!' will be much more menacing from atop a heavily armored bear that's barreling down on Alliance at top speed."
     }
   },
   {
@@ -3027,7 +3026,7 @@
       "MountID": 230,
       "SpellID": 61467,
       "movement_type": "Ground",
-      "description": "Rarely, a war mammoth is born stronger and more tractable than its peers. These mammoths are dubbed \"grand\" and carry more than one rider to the front lines."
+      "description": "Rarely, a war mammoth is born stronger and more tractable than its peers. These mammoths are dubbed 'grand' and carry more than one rider to the front lines."
     }
   },
   {
@@ -3199,7 +3198,7 @@
       "MountID": 230,
       "SpellID": 63640,
       "movement_type": "Ground",
-      "description": "For a brief time, many orcs would declare themselves \"hungry like an Orgrimmar wolf.\" Some blood elves still use the phrase ironically."
+      "description": "For a brief time, many orcs would declare themselves 'hungry like an Orgrimmar wolf.' Some blood elves still use the phrase ironically."
     }
   },
   {
@@ -3324,7 +3323,7 @@
       "MountID": 230,
       "SpellID": 64657,
       "movement_type": "Ground",
-      "description": "\"The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.\" - Harb Clawhoof"
+      "description": "'The kodo is the backbone of our people. Wherever the Horde goes - in trade, settlement, or war - there you will find the mighty kodo.' - Harb Clawhoof"
     }
   },
   {
@@ -3919,7 +3918,7 @@
       "MountID": 424,
       "SpellID": 74856,
       "movement_type": "Flying",
-      "description": "Hippogryphs are highly intelligent, sentient beings; far more than mere \"mounts.\""
+      "description": "Hippogryphs are highly intelligent, sentient beings; far more than mere 'mounts.'"
     }
   },
   {
@@ -3932,7 +3931,7 @@
       "MountID": 230,
       "SpellID": 74918,
       "movement_type": "Ground",
-      "description": "Captured by Toby \"Mother Goose\" Ironbolt on the Borean Tundra, this shaggy beast carries an enormous grudge after being bridled by a gnome."
+      "description": "Captured by Toby 'Mother Goose' Ironbolt on the Borean Tundra, this shaggy beast carries an enormous grudge after being bridled by a gnome."
     }
   },
   {
@@ -3957,7 +3956,7 @@
       "MountID": 424,
       "SpellID": 75596,
       "movement_type": "Flying",
-      "description": "\"I remember my first flying carpet... yeti hair and burlap.  Not nearly as nice as this one here.\" - Frozo the Renowned"
+      "description": "'I remember my first flying carpet... yeti hair and burlap.  Not nearly as nice as this one here.' - Frozo the Renowned"
     }
   },
   {
@@ -4111,7 +4110,7 @@
       "MountID": 230,
       "SpellID": 171436,
       "movement_type": "Ground",
-      "description": "Once \"befriended\", a gronnling will happily carry its rider to their death."
+      "description": "Once 'befriended', a gronnling will happily carry its rider to their death."
     }
   },
   {
@@ -4138,7 +4137,7 @@
       "MountID": 230,
       "SpellID": 88748,
       "movement_type": "Ground",
-      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for \"longest unintentional flight,\" all in the same afternoon."
+      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for 'longest unintentional flight,' all in the same afternoon."
     }
   },
   {
@@ -4152,7 +4151,7 @@
       "MountID": 230,
       "SpellID": 88749,
       "movement_type": "Ground",
-      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for \"longest unintentional flight,\" all in the same afternoon."
+      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for 'longest unintentional flight,' all in the same afternoon."
     }
   },
   {
@@ -4165,7 +4164,7 @@
       "MountID": 230,
       "SpellID": 88750,
       "movement_type": "Ground",
-      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for \"longest unintentional flight,\" all in the same afternoon."
+      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for 'longest unintentional flight,' all in the same afternoon."
     }
   },
   {
@@ -4400,7 +4399,7 @@
       "MountID": 254,
       "SpellID": 98718,
       "movement_type": "Aquatic",
-      "description": "\"One has not truly lived until they have felt the tidal current rushing through their hair while atop a majestic seahorse,\" said no one.  Ever."
+      "description": "'One has not truly lived until they have felt the tidal current rushing through their hair while atop a majestic seahorse,' said no one.  Ever."
     }
   },
   {
@@ -4552,7 +4551,7 @@
       "MountID": 230,
       "SpellID": 102488,
       "movement_type": "Ground",
-      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for \"longest unintentional flight,\" all in the same afternoon."
+      "description": "Fennimore Quigley is credited with milking the first camel and breaking the record for 'longest unintentional flight,' all in the same afternoon."
     }
   },
   {
@@ -4683,7 +4682,7 @@
       "MountID": 424,
       "SpellID": 107845,
       "movement_type": "Flying",
-      "description": "Alexstrasza, the former dragon Aspect of Life, is known to be a kind and patient mentor. Under her tutelage, only the most dedicated pupils acquire the title of \"Life-Binder's Handmaiden.\""
+      "description": "Alexstrasza, the former dragon Aspect of Life, is known to be a kind and patient mentor. Under her tutelage, only the most dedicated pupils acquire the title of 'Life-Binder's Handmaiden.'"
     }
   },
   {
@@ -4760,7 +4759,7 @@
       "MountID": 230,
       "SpellID": 118089,
       "movement_type": "Ground",
-      "description": "\"Normally bugs are for bait, but how could you look into its eyes and even think that?\" -Nat Pagle"
+      "description": "'Normally bugs are for bait, but how could you look into its eyes and even think that?' -Nat Pagle"
     }
   },
   {
@@ -4773,7 +4772,7 @@
       "MountID": 424,
       "SpellID": 118737,
       "movement_type": "Flying",
-      "description": "This \"mount,\" awarded by the Lorewalkers of Pandaria, is a reward to the hero of their organization."
+      "description": "This 'mount,' awarded by the Lorewalkers of Pandaria, is a reward to the hero of their organization."
     }
   },
   {
@@ -4827,7 +4826,7 @@
       "MountID": 230,
       "SpellID": 120822,
       "movement_type": "Ground",
-      "description": "\"Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.\"  - Turtlemaster Odai"
+      "description": "'Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.'  - Turtlemaster Odai"
     }
   },
   {
@@ -5258,7 +5257,7 @@
       "MountID": 230,
       "SpellID": 127271,
       "movement_type": "Ground",
-      "description": "\"Normally bugs are for bait, but how could you look into its eyes and even think that?\" -Nat Pagle"
+      "description": "'Normally bugs are for bait, but how could you look into its eyes and even think that?' -Nat Pagle"
     }
   },
   {
@@ -5384,7 +5383,7 @@
       "MountID": 230,
       "SpellID": 127293,
       "movement_type": "Ground",
-      "description": "\"Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.\"  - Turtlemaster Odai"
+      "description": "'Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.'  - Turtlemaster Odai"
     }
   },
   {
@@ -5405,7 +5404,7 @@
       "MountID": 230,
       "SpellID": 127295,
       "movement_type": "Ground",
-      "description": "\"Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.\"  - Turtlemaster Odai"
+      "description": "'Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.'  - Turtlemaster Odai"
     }
   },
   {
@@ -5426,7 +5425,7 @@
       "MountID": 230,
       "SpellID": 127302,
       "movement_type": "Ground",
-      "description": "\"Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.\"  - Turtlemaster Odai"
+      "description": "'Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.'  - Turtlemaster Odai"
     }
   },
   {
@@ -5447,7 +5446,7 @@
       "MountID": 230,
       "SpellID": 127308,
       "movement_type": "Ground",
-      "description": "\"Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.\"  - Turtlemaster Odai"
+      "description": "'Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.'  - Turtlemaster Odai"
     }
   },
   {
@@ -5468,7 +5467,7 @@
       "MountID": 230,
       "SpellID": 127310,
       "movement_type": "Ground",
-      "description": "\"Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.\"  - Turtlemaster Odai"
+      "description": "'Packaged upgrades include; dual-lantern fog lights, emergency brew keg, and genuine Tanji leather seat.'  - Turtlemaster Odai"
     }
   },
   {
@@ -5515,7 +5514,7 @@
       "MountID": 230,
       "SpellID": 129932,
       "movement_type": "Ground",
-      "description": "\"When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.\" -Pandaren Proverb"
+      "description": "'When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.' -Pandaren Proverb"
     }
   },
   {
@@ -5529,7 +5528,7 @@
       "MountID": 230,
       "SpellID": 129934,
       "movement_type": "Ground",
-      "description": "\"When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.\" -Pandaren Proverb"
+      "description": "'When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.' -Pandaren Proverb"
     }
   },
   {
@@ -5543,7 +5542,7 @@
       "MountID": 230,
       "SpellID": 129935,
       "movement_type": "Ground",
-      "description": "\"When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.\" -Pandaren Proverb"
+      "description": "'When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.' -Pandaren Proverb"
     }
   },
   {
@@ -5843,7 +5842,7 @@
       "MountID": 230,
       "SpellID": 138423,
       "movement_type": "Ground",
-      "description": "\"When ya fight alongside raptors, ya want a mount dey can't eat.\" -Unknown dinomancer"
+      "description": "'When ya fight alongside raptors, ya want a mount dey can't eat.' -Unknown dinomancer"
     }
   },
   {
@@ -5856,7 +5855,7 @@
       "MountID": 230,
       "SpellID": 138424,
       "movement_type": "Ground",
-      "description": "There is an old Zandalari saying about wild direhorns: \"Run!\""
+      "description": "There is an old Zandalari saying about wild direhorns: 'Run!'"
     }
   },
   {
@@ -5895,7 +5894,7 @@
       "MountID": 230,
       "SpellID": 138640,
       "movement_type": "Ground",
-      "description": "\"They are lethal at eight months, very lethal.\" -Hemet Nesingwary Jr."
+      "description": "'They are lethal at eight months, very lethal.' -Hemet Nesingwary Jr."
     }
   },
   {
@@ -5931,7 +5930,7 @@
       "MountID": 230,
       "SpellID": 138643,
       "movement_type": "Ground",
-      "description": "\"Raptors are as loyal as they are vicious. If you ain't friend, you are food.\" -Kijara"
+      "description": "'Raptors are as loyal as they are vicious. If you ain't friend, you are food.' -Kijara"
     }
   },
   {
@@ -6049,7 +6048,7 @@
       "MountID": 230,
       "SpellID": 142641,
       "movement_type": "Ground",
-      "description": "For years pandaren believed these creatures to be untamable. Just ask the first pandaren to do so, Henshi \"Limp Along\" Homebrew."
+      "description": "For years pandaren believed these creatures to be untamable. Just ask the first pandaren to do so, Henshi 'Limp Along' Homebrew."
     }
   },
   {
@@ -6159,7 +6158,7 @@
       "MountID": 230,
       "SpellID": 148428,
       "movement_type": "Ground",
-      "description": "Some people say that riding an ashhide mushan will result in favorable health and increased prosperity. These people are called \"mount vendors.\""
+      "description": "Some people say that riding an ashhide mushan will result in favorable health and increased prosperity. These people are called 'mount vendors.'"
     }
   },
   {
@@ -6507,7 +6506,7 @@
       "MountID": 230,
       "SpellID": 171633,
       "movement_type": "Ground",
-      "description": "If you want a gentle ride, go find a \"tame happytusk\" or something."
+      "description": "If you want a gentle ride, go find a 'tame happytusk' or something."
     }
   },
   {
@@ -6522,7 +6521,7 @@
       "MountID": 230,
       "SpellID": 171634,
       "movement_type": "Ground",
-      "description": "\"Domesticated\" does not mean \"friendly.\" Bring some treats."
+      "description": "'Domesticated' does not mean 'friendly.' Bring some treats."
     }
   },
   {
@@ -6877,7 +6876,7 @@
       "MountID": 230,
       "SpellID": 171845,
       "movement_type": "Ground",
-      "description": "Often referred to as the \"Goblin Lawn Mower\", this growling behemoth treats enemies like they are made of grass... ready to be mown down."
+      "description": "Often referred to as the 'Goblin Lawn Mower', this growling behemoth treats enemies like they are made of grass... ready to be mown down."
     }
   },
   {
@@ -6941,7 +6940,7 @@
       "MountID": 424,
       "SpellID": 175700,
       "movement_type": "Flying",
-      "description": "\"Is the emerald drake rare?  You have no idea.  If I had a silver for every time someone asked me about one, I could have retired years ago.\" -Mei Francis"
+      "description": "'Is the emerald drake rare?  You have no idea.  If I had a silver for every time someone asked me about one, I could have retired years ago.' -Mei Francis"
     }
   },
   {
@@ -7846,7 +7845,7 @@
       "MountID": 424,
       "SpellID": 229388,
       "movement_type": "Flying",
-      "description": "Also responds to \"Mister Bitey.\""
+      "description": "Also responds to 'Mister Bitey.'"
     }
   },
   {
@@ -7954,7 +7953,7 @@
       "MountID": 230,
       "SpellID": 230401,
       "movement_type": "Ground",
-      "description": "\"My winged children fill the skies. Not this one though.\"\n\n-Aviana"
+      "description": "'My winged children fill the skies. Not this one though.'\n\n-Aviana"
     }
   },
   {
@@ -8113,7 +8112,7 @@
       "MountID": 424,
       "SpellID": 231588,
       "movement_type": "Flying",
-      "description": "His blank horse stare is \"vigilance,\" actually."
+      "description": "His blank horse stare is 'vigilance,' actually."
     }
   },
   {
@@ -8530,7 +8529,7 @@
       "MountID": 424,
       "SpellID": 245723,
       "movement_type": "Flying",
-      "description": "\"Give me all the engines you got.\" - Engineer Cogspinner"
+      "description": "'Give me all the engines you got.' - Engineer Cogspinner"
     }
   },
   {
@@ -8765,7 +8764,7 @@
       "MountID": 230,
       "SpellID": 253661,
       "movement_type": "Ground",
-      "description": "Answers to a series of noises that cannot be made by non-demonic creatures but roughly translates to \"Deathslobber.\""
+      "description": "Answers to a series of noises that cannot be made by non-demonic creatures but roughly translates to 'Deathslobber.'"
     }
   },
   {
@@ -9569,8 +9568,7 @@
       "NameID": 1069,
       "MountID": 291,
       "SpellID": 276112,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -9579,8 +9577,7 @@
       "NameID": 1071,
       "MountID": 291,
       "SpellID": 276111,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -10371,7 +10368,7 @@
       "MountID": 424,
       "SpellID": 294197,
       "movement_type": "Flying",
-      "description": "\"I have had many names throughout history, all of them spoken with dread: Neltharion, Xaxas, and many more. Yet you shall know me best as Deathwing, for so I am! I am the bane of life, the darkness within history, the lord of death, the master of destruction. And I tell you now, and so it is true, that this world is mine!\" - Neltharion, the Earth-Warder"
+      "description": "'I have had many names throughout history, all of them spoken with dread: Neltharion, Xaxas, and many more. Yet you shall know me best as Deathwing, for so I am! I am the bane of life, the darkness within history, the lord of death, the master of destruction. And I tell you now, and so it is true, that this world is mine!' - Neltharion, the Earth-Warder"
     }
   },
   {
@@ -10525,7 +10522,7 @@
       "MountID": 424,
       "SpellID": 299170,
       "movement_type": "Flying",
-      "description": "\"R E S I S T\" is carved into the seat in crude letters, along with several, more profane things."
+      "description": "'R E S I S T' is carved into the seat in crude letters, along with several, more profane things."
     }
   },
   {
@@ -11235,7 +11232,7 @@
       "MountID": 424,
       "SpellID": 326390,
       "movement_type": "Flying",
-      "description": "A mad gnomish inventor had a dream to ride a dragon, so he created this metal monstrosity. He powered it with a trapped demon, in order to create \"an authentic dragon soul,\" and did not survive its activation."
+      "description": "A mad gnomish inventor had a dream to ride a dragon, so he created this metal monstrosity. He powered it with a trapped demon, in order to create 'an authentic dragon soul,' and did not survive its activation."
     }
   },
   {
@@ -12357,7 +12354,7 @@
       "MountID": 230,
       "SpellID": 347255,
       "movement_type": "Ground",
-      "description": "These creatures are so enthusiastic when charging into battle that they will croak out something that sounds very much like \"FOR THE HORDE!\""
+      "description": "These creatures are so enthusiastic when charging into battle that they will croak out something that sounds very much like 'FOR THE HORDE!'"
     }
   },
   {
@@ -12372,7 +12369,7 @@
       "MountID": 230,
       "SpellID": 347256,
       "movement_type": "Ground",
-      "description": "These creatures are so enthusiastic when charging into battle that they will croak out something that sounds very much like \"FOR THE ALLIANCE!\""
+      "description": "These creatures are so enthusiastic when charging into battle that they will croak out something that sounds very much like 'FOR THE ALLIANCE!'"
     }
   },
   {
@@ -12828,7 +12825,7 @@
       "MountID": 424,
       "SpellID": 353884,
       "movement_type": "Flying",
-      "description": "Only the forces of Maldraxxus would call a corpsefly \"regal.\""
+      "description": "Only the forces of Maldraxxus would call a corpsefly 'regal.'"
     }
   },
   {
@@ -13483,8 +13480,7 @@
       "NameID": 1567,
       "MountID": 291,
       "SpellID": 363608,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -13618,8 +13614,7 @@
       "NameID": 1578,
       "MountID": 247,
       "SpellID": 367190,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -13799,7 +13794,7 @@
       "MountID": 230,
       "SpellID": 369666,
       "movement_type": "Ground",
-      "description": "Otherwise known as The Flame Woof, the Fetcher of the Igneous, Molten Core's Best Friend, Forgehound Maximus, the Best Fiery Boy, and \"oh no is that an AXE on his face!?\""
+      "description": "Otherwise known as The Flame Woof, the Fetcher of the Igneous, Molten Core's Best Friend, Forgehound Maximus, the Best Fiery Boy, and 'oh no is that an AXE on his face!?'"
     }
   },
   {
@@ -13888,8 +13883,7 @@
       "NameID": 1608,
       "MountID": 409,
       "SpellID": 430833,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -14538,7 +14532,7 @@
       "MountID": 230,
       "SpellID": 394737,
       "movement_type": "Ground",
-      "description": "The elite Alliance forces that use these sabertooth mounts use a battle cry that translates from Darnassian as \"here kitty kitty\"."
+      "description": "The elite Alliance forces that use these sabertooth mounts use a battle cry that translates from Darnassian as 'here kitty kitty'."
     }
   },
   {
@@ -14553,7 +14547,7 @@
       "MountID": 230,
       "SpellID": 394738,
       "movement_type": "Ground",
-      "description": "The elite Horde forces that use these sabertooth mounts use a battle cry that translates from Thalassian as \"pspspspsps\"."
+      "description": "The elite Horde forces that use these sabertooth mounts use a battle cry that translates from Thalassian as 'pspspspsps'."
     }
   },
   {
@@ -14562,8 +14556,7 @@
       "NameID": 1690,
       "MountID": 411,
       "SpellID": 395095,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -14621,7 +14614,7 @@
       "MountID": 424,
       "SpellID": 407555,
       "movement_type": "Flying",
-      "description": "\"Farewell, Tarecgosa. A dear sister, hero, student, and teacher. Though blood does not bind us, you will always be family. May your soul find its place soaring among the stars.\""
+      "description": "Farewell, Tarecgosa. A dear sister, hero, student, and teacher. Though blood does not bind us, you will always be family. May your soul find its place soaring among the stars."
     }
   },
   {
@@ -15097,8 +15090,7 @@
       "NameID": 1796,
       "MountID": 430,
       "SpellID": 419002,
-      "movement_type": "Flying",
-      "description": null
+      "movement_type": "Flying"
     }
   },
   {
@@ -15653,8 +15645,7 @@
       "NameID": 1952,
       "MountID": 435,
       "SpellID": 430747,
-      "movement_type": "Flying",
-      "description": null
+      "movement_type": "Flying"
     }
   },
   {
@@ -15913,7 +15904,7 @@
       "MountID": 424,
       "SpellID": 435109,
       "movement_type": "Flying",
-      "description": "\"Check the current windspeed and elevation before mounting. Avoid trees and other tall objects. Damaged kites are ineligible for return or refund.\" - Windsurfer's Instruction Manual"
+      "description": "'Check the current windspeed and elevation before mounting. Avoid trees and other tall objects. Damaged kites are ineligible for return or refund.' - Windsurfer's Instruction Manual"
     }
   },
   {
@@ -16057,7 +16048,7 @@
       "MountID": 424,
       "SpellID": 435146,
       "movement_type": "Flying",
-      "description": "Scholars interpret this creature's awful screeching as \"fear me, I am the night!\""
+      "description": "Scholars interpret this creature's awful screeching as 'fear me, I am the night!'"
     }
   },
   {
@@ -16105,7 +16096,7 @@
       "MountID": 230,
       "SpellID": 435153,
       "movement_type": "Ground",
-      "description": "\"When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.\" -Pandaren Proverb"
+      "description": "'When waking a tiger, use a long stick. Better yet, tell your friend to wake the tiger instead.' -Pandaren Proverb"
     }
   },
   {
@@ -16166,7 +16157,7 @@
       "MountID": 424,
       "SpellID": 440444,
       "movement_type": "Flying",
-      "description": "\"Was I a good boy?\" the soul asked Zovaal. \"No. I'm told you were the worst.\""
+      "description": "Was I a good boy?' the soul asked Zovaal. 'No. I'm told you were the worst."
     }
   },
   {
@@ -16175,8 +16166,7 @@
       "NameID": 2115,
       "MountID": 442,
       "SpellID": 441313,
-      "movement_type": "Flying",
-      "description": null
+      "movement_type": "Flying"
     }
   },
   {
@@ -16549,8 +16539,7 @@
       "NameID": 2186,
       "MountID": 436,
       "SpellID": 448845,
-      "movement_type": "Aquatic",
-      "description": null
+      "movement_type": "Aquatic"
     }
   },
   {
@@ -16574,8 +16563,7 @@
       "NameID": 2188,
       "MountID": 436,
       "SpellID": 448850,
-      "movement_type": "Aquatic",
-      "description": null
+      "movement_type": "Aquatic"
     }
   },
   {
@@ -16668,7 +16656,7 @@
       "MountID": 230,
       "SpellID": 448979,
       "movement_type": "Ground",
-      "description": "This lynx's barding has had most of its insignia ripped off. The one remaining tag reads, \"Dauntless\"."
+      "description": "This lynx's barding has had most of its insignia ripped off. The one remaining tag reads, 'Dauntless'."
     }
   },
   {
@@ -16702,8 +16690,7 @@
       "NameID": 2200,
       "MountID": 230,
       "SpellID": 449133,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -16726,8 +16713,7 @@
       "NameID": 2202,
       "MountID": 230,
       "SpellID": 449141,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -16996,8 +16982,7 @@
       "NameID": 2241,
       "MountID": 230,
       "SpellID": 457659,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -17055,8 +17040,7 @@
       "NameID": 2261,
       "MountID": 424,
       "SpellID": 463133,
-      "movement_type": "Flying",
-      "description": null
+      "movement_type": "Flying"
     }
   },
   {
@@ -17299,7 +17283,7 @@
       "MountID": 424,
       "SpellID": 472488,
       "movement_type": "Flying",
-      "description": "A darker look for the \"Motion By Emotion\" magic broom series of mounts. Fans of this color know that it looks good regardless of the time of day."
+      "description": "A darker look for the 'Motion By Emotion' magic broom series of mounts. Fans of this color know that it looks good regardless of the time of day."
     }
   },
   {
@@ -17621,7 +17605,7 @@
       "MountID": 424,
       "SpellID": 472479,
       "movement_type": "Flying",
-      "description": "The original design of the feeling-fueled magic broom series \"Motion By Emotion\", this ride is sure to get you there in a swiffy!"
+      "description": "The original design of the feeling-fueled magic broom series 'Motion By Emotion', this ride is sure to get you there in a swiffy!"
     }
   },
   {
@@ -17633,7 +17617,7 @@
       "MountID": 424,
       "SpellID": 472487,
       "movement_type": "Flying",
-      "description": "The Silvermoon color scheme for the \"Motion By Emotion\" has been a success all across Azeroth."
+      "description": "The Silvermoon color scheme for the 'Motion By Emotion' has been a success all across Azeroth."
     }
   },
   {
@@ -17644,7 +17628,7 @@
       "MountID": 424,
       "SpellID": 472489,
       "movement_type": "Flying",
-      "description": "The sky's the limit when you mount up on this \"Motion By Emotion\" magic broom model."
+      "description": "The sky's the limit when you mount up on this 'Motion By Emotion' magic broom model."
     }
   },
   {
@@ -17763,7 +17747,7 @@
       "MountID": 231,
       "SpellID": 473861,
       "movement_type": "Aquatic",
-      "description": "Wisdom throughout the ages has led to a well-known saying, \"Nothing can outrun a cannon.\""
+      "description": "Wisdom throughout the ages has led to a well-known saying, 'Nothing can outrun a cannon.'"
     }
   },
   {
@@ -17906,8 +17890,7 @@
       "NameID": 2481,
       "MountID": 230,
       "SpellID": 1217340,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -17942,8 +17925,7 @@
       "NameID": 2484,
       "MountID": 230,
       "SpellID": 1217343,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -18331,7 +18313,7 @@
       "MountID": 230,
       "SpellID": 1233546,
       "movement_type": "Ground",
-      "description": "\"Rescued\" by the K'aresh Trust for study, this void creeper has turned out to be an incredibly sturdy mount."
+      "description": "'Rescued' by the K'aresh Trust for study, this void creeper has turned out to be an incredibly sturdy mount."
     }
   },
   {
@@ -18359,7 +18341,7 @@
       "MountID": 230,
       "SpellID": 1233559,
       "movement_type": "Ground",
-      "description": "A particularly rare variant of slateback, \"Blue Barry\" was previously used as a beast of burden."
+      "description": "A particularly rare variant of slateback, 'Blue Barry' was previously used as a beast of burden."
     }
   },
   {
@@ -18426,8 +18408,7 @@
       "NameID": 2572,
       "MountID": 230,
       "SpellID": 1234859,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -18450,8 +18431,7 @@
       "NameID": 2576,
       "MountID": 424,
       "SpellID": 1235763,
-      "movement_type": "Flying",
-      "description": null
+      "movement_type": "Flying"
     }
   },
   {
@@ -18474,8 +18454,7 @@
       "NameID": 2578,
       "MountID": 424,
       "SpellID": 1235806,
-      "movement_type": "Flying",
-      "description": null
+      "movement_type": "Flying"
     }
   },
   {
@@ -18510,8 +18489,7 @@
       "NameID": 2581,
       "MountID": 230,
       "SpellID": 1235820,
-      "movement_type": "Ground",
-      "description": null
+      "movement_type": "Ground"
     }
   },
   {
@@ -18542,7 +18520,7 @@
       "MountID": 230,
       "SpellID": 1237631,
       "movement_type": "Ground",
-      "description": "\"Her white glow upon their silvered fur, her bright-blue gaze in their moonlit eyes. Oh, how the moons smile on these creatures.\" -Mother Kalo'thera, High Priestess of Elune, A Blessing in Hajiri"
+      "description": "'Her white glow upon their silvered fur, her bright-blue gaze in their moonlit eyes. Oh, how the moons smile on these creatures.' -Mother Kalo'thera, High Priestess of Elune, A Blessing in Hajiri"
     }
   },
   {
