@@ -1,8 +1,36 @@
-# WORLD OF WARCRAFT MOUNT REPORT
+# WORLD OF WARCRAFT MOUNT TRACKER
 
-**Analysis Date:** 2025-06-25
+**Analysis Date:** 2025-06-25  
 **Total Mounts Analyzed:** 1,431  
 **Data Source:** Enhanced Mount Data with Coordinates
+
+---
+
+## 🎮 MOUNTTRACKER ADDON OVERVIEW
+
+**MountTracker** is a comprehensive World of Warcraft addon designed to help players track, manage, and collect mounts. It serves as the ultimate mount collection companion, providing detailed information about all available mounts in the game.
+
+### **Core Functionality:**
+- **Mount Database:** Complete tracking of 1,431 mounts with comprehensive data
+- **Source Information:** Detailed acquisition methods (vendor, drop, achievement, quest, PvP, events)
+- **Collection Management:** Track owned vs. missing mounts with filtering and search
+- **Location Data:** Coordinate information for vendor locations and mount acquisition
+- **Progress Tracking:** Monitor collection progress and completion goals
+
+### **Enhanced Features:**
+- **30+ Field Types:** Complete coverage of mount attributes and requirements
+- **Cross-Referenced Data:** Validated information from multiple sources
+- **Real-time Integration:** Live game data for accurate collection status
+- **User Interface:** Intuitive browsing and filtering capabilities
+- **Tooltip Enhancements:** Rich information display for mount tooltips
+
+### **Data Coverage:**
+- **Vendor Mounts:** 470 mounts with location, cost, and currency information
+- **Drop Mounts:** 237 mounts with boss/location details
+- **Achievement Mounts:** 112 mounts with achievement requirements
+- **PvP Mounts:** 110 mounts with arena/battleground details
+- **Event Mounts:** 70 mounts with seasonal event information
+- **Retired/Legacy:** 127 mounts marked as discontinued content
 
 ---
 
