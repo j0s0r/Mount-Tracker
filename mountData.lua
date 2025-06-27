@@ -618,7 +618,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Zachariah Post",
 		zone = "Tirisfal Glades",
-		flags = {"source:vendor", "vendor:zachariah_post", "zone:tirisfal_glades", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:zachariah_post", "zone:tirisfal_glades", "cost:1", "currency:gold", "faction:horde"}
 	},
 
 	[66] = {
@@ -633,7 +633,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Zachariah Post",
 		zone = "Tirisfal Glades",
-		flags = {"source:vendor", "vendor:zachariah_post", "zone:tirisfal_glades", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:zachariah_post", "zone:tirisfal_glades", "cost:1", "currency:gold", "faction:horde"}
 	},
 
 	[67] = {
@@ -675,7 +675,7 @@ local MountData = {
 		patch = "1.0",
 		mountType = 230,
 		zone = "Stratholme",
-		flags = {"source:drop", "location:stratholme", "drop:lord_aurius_rivendare", "boss:lord_aurius_rivendare"}
+		flags = {"source:drop", "source:bmah", "location:stratholme", "drop:lord_aurius_rivendare", "boss:lord_aurius_rivendare"}
 	},
 
 	[70] = {
@@ -756,7 +756,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Lieutenant Karter",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15"}
+		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[76] = {
@@ -771,7 +771,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Raider Bork",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15"}
+		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[77] = {
@@ -786,7 +786,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Lieutenant Karter",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15"}
+		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[78] = {
@@ -801,7 +801,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Lieutenant Karter",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15"}
+		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[79] = {
@@ -816,7 +816,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Raider Bork",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15"}
+		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[80] = {
@@ -831,7 +831,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Raider Bork",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15"}
+		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[81] = {
@@ -846,7 +846,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Lieutenant Karter",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15"}
+		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[82] = {
@@ -861,7 +861,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Raider Bork",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15"}
+		flags = {"source:vendor", "vendor:raider_bork", "zone:orgrimmar", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[83] = {
@@ -873,7 +873,7 @@ local MountData = {
 		patch = "1.0",
 		mountType = 230,
 		class = "Warlock",
-		flags = {"source:class", "class:warlock"}
+		flags = {"source:class", "class:warlock", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[84] = {
@@ -885,6 +885,7 @@ local MountData = {
 		patch = "1.0",
 		mountType = 230,
 		class = "Paladin",
+		flags = {"source:class", "class:paladin", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[85] = {
@@ -899,7 +900,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Lelanai",
 		zone = "Darnassus",
-		flags = {"source:vendor", "vendor:lelanai", "zone:darnassus", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:lelanai", "zone:darnassus", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[87] = {
@@ -914,7 +915,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Lelanai",
 		zone = "Darnassus",
-		flags = {"source:vendor", "vendor:lelanai", "location:darnassus", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:lelanai", "location:darnassus", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[88] = {
@@ -929,7 +930,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Milli Featherwhistle",
 		zone = "Dun Morogh",
-		flags = {"source:vendor", "vendor:milli_featherwhistle", "zone:dun_morogh", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:milli_featherwhistle", "zone:dun_morogh", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[89] = {
@@ -944,7 +945,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Milli Featherwhistle",
 		zone = "Dun Morogh",
-		flags = {"source:vendor", "vendor:milli_featherwhistle", "zone:dun_morogh", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:milli_featherwhistle", "zone:dun_morogh", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[90] = {
@@ -959,7 +960,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Milli Featherwhistle",
 		zone = "Dun Morogh",
-		flags = {"source:vendor", "vendor:milli_featherwhistle", "zone:dun_morogh", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:milli_featherwhistle", "zone:dun_morogh", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[91] = {
@@ -974,7 +975,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Katie Stokx",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:katie_stokx", "zone:stormwind_city", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:katie_stokx", "zone:stormwind_city", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[92] = {
@@ -989,7 +990,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Katie Stokx",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:katie_stokx", "zone:stormwind_city", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:katie_stokx", "zone:stormwind_city", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[93] = {
@@ -1004,7 +1005,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Katie Stokx",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:katie_stokx", "zone:stormwind_city", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:katie_stokx", "zone:stormwind_city", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[94] = {
@@ -1019,7 +1020,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Veron Amberstill",
 		zone = "Dun Morogh",
-		flags = {"source:vendor", "vendor:veron_amberstill", "zone:dun_morogh", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:veron_amberstill", "zone:dun_morogh", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[95] = {
@@ -1034,7 +1035,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Veron Amberstill",
 		zone = "Dun Morogh",
-		flags = {"source:vendor", "vendor:veron_amberstill", "zone:dun_morogh", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:veron_amberstill", "zone:dun_morogh", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[96] = {
@@ -1049,7 +1050,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Veron Amberstill",
 		zone = "Dun Morogh",
-		flags = {"source:vendor", "vendor:veron_amberstill", "zone:dun_morogh", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:veron_amberstill", "zone:dun_morogh", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[97] = {
@@ -1064,7 +1065,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Zjolnir",
 		zone = "Durotar",
-		flags = {"source:vendor", "vendor:zjolnir", "zone:durotar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:zjolnir", "zone:durotar", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[98] = {
@@ -1079,7 +1080,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Zjolnir",
 		zone = "Durotar",
-		flags = {"source:vendor", "vendor:zjolnir", "zone:durotar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:zjolnir", "zone:durotar", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[99] = {
@@ -1094,7 +1095,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Zjolnir",
 		zone = "Durotar",
-		flags = {"source:vendor", "status:retired", "vendor:zjolnir", "zone:durotar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:zjolnir", "zone:durotar", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[100] = {
@@ -1109,7 +1110,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Zachariah Post",
 		zone = "Tirisfal Glades",
-		flags = {"source:vendor", "status:retired", "vendor:zachariah_post", "zone:tirisfal_glades", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:zachariah_post", "zone:tirisfal_glades", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[101] = {
@@ -1124,7 +1125,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Harb Clawhoof",
 		zone = "Mulgore",
-		flags = {"source:vendor", "status:retired", "vendor:harb_clawhoof", "zone:mulgore", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:harb_clawhoof", "zone:mulgore", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[102] = {
@@ -1139,7 +1140,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Harb Clawhoof",
 		zone = "Mulgore",
-		flags = {"source:vendor", "status:retired", "vendor:harb_clawhoof", "zone:mulgore", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:harb_clawhoof", "zone:mulgore", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[103] = {
@@ -1154,7 +1155,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Harb Clawhoof",
 		zone = "Mulgore",
-		flags = {"source:vendor", "status:retired", "vendor:harb_clawhoof", "location:mulgore", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:harb_clawhoof", "location:mulgore", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[104] = {
@@ -1169,7 +1170,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Ogunaro Wolfrunner",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:ogunaro_wolfrunner", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:ogunaro_wolfrunner", "zone:orgrimmar", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[105] = {
@@ -1184,7 +1185,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Ogunaro Wolfrunner",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:ogunaro_wolfrunner", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:ogunaro_wolfrunner", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[106] = {
@@ -1199,7 +1200,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Ogunaro Wolfrunner",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:ogunaro_wolfrunner", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:ogunaro_wolfrunner", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[107] = {
@@ -1214,7 +1215,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Lelanai",
 		zone = "Darnassus",
-		flags = {"source:vendor", "vendor:lelanai", "zone:darnassus", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:lelanai", "zone:darnassus", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[108] = {
@@ -1229,7 +1230,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Jorek Ironside",
 		zone = "Hillsbrad Foothills",
-		flags = {"source:vendor", "vendor:jorek_ironside", "zone:hillsbrad_foothills", "cost:2000"}
+		flags = {"source:vendor", "vendor:jorek_ironside", "zone:hillsbrad_foothills", "cost:2000", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[109] = {
@@ -1244,7 +1245,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Thanthaldis Snowgleam",
 		zone = "Hillsbrad Foothills",
-		flags = {"source:vendor", "vendor:thanthaldis_snowgleam", "zone:hillsbrad_foothills", "cost:2000"}
+		flags = {"source:vendor", "vendor:thanthaldis_snowgleam", "zone:hillsbrad_foothills", "cost:2000", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[110] = {
@@ -1256,7 +1257,7 @@ local MountData = {
 		patch = "1.7",
 		mountType = 230,
 		zone = "Zul'Gurub",
-		flags = {"source:drop", "location:zulgurub", "drop:bloodlord_mandokir", "boss:bloodlord_mandokir"}
+		flags = {"source:bmah", "status:retired", "location:zulgurub", "drop:bloodlord_mandokir", "boss:bloodlord_mandokir", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[111] = {
@@ -1268,7 +1269,7 @@ local MountData = {
 		patch = "1.7",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:bmah", "status:retired", "legacy:true", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[116] = {
@@ -1280,7 +1281,7 @@ local MountData = {
 		patch = "1.9",
 		mountType = 230,
 		legacy = "true",
-		flags = {"legacy:true"}
+		flags = {"legacy:true", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[117] = {
@@ -1292,7 +1293,7 @@ local MountData = {
 		patch = "1.9",
 		mountType = 241,
 		zone = "Temple of Ahn'Qiraj",
-		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop"}
+		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[118] = {
@@ -1304,7 +1305,7 @@ local MountData = {
 		patch = "1.9",
 		mountType = 241,
 		zone = "Temple of Ahn'Qiraj",
-		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop"}
+		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[119] = {
@@ -1316,7 +1317,7 @@ local MountData = {
 		patch = "1.9",
 		mountType = 241,
 		zone = "Temple of Ahn'Qiraj",
-		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop"}
+		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[120] = {
@@ -1328,7 +1329,7 @@ local MountData = {
 		patch = "1.9",
 		mountType = 241,
 		zone = "Temple of Ahn'Qiraj",
-		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop"}
+		flags = {"source:drop", "location:temple_of_ahnqiraj", "drop:world_drop", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[121] = {
@@ -1340,7 +1341,7 @@ local MountData = {
 		patch = "1.9",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[122] = {
@@ -1352,7 +1353,7 @@ local MountData = {
 		patch = "1.9",
 		mountType = 230,
 		zone = "Temple of Ahn'Qiraj",
-		flags = {"location:temple_of_ahnqiraj", "drop:world_drop"}
+		flags = {"location:temple_of_ahnqiraj", "drop:world_drop", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[123] = {
@@ -1367,7 +1368,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drake Dealer Hurlunk",
 		zone = "Shadowmoon Valley, Outland",
-		flags = {"source:vendor", "vendor:drake_dealer_hurlunk", "zone:shadowmoon_valley_outland", "cost:200", "currency:gold"}
+		flags = {"source:vendor", "vendor:drake_dealer_hurlunk", "zone:shadowmoon_valley_outland", "cost:200", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[125] = {
@@ -1380,7 +1381,7 @@ local MountData = {
 		mountType = 231,
 		vendor = "Landro Longshot",
 		zone = "Booty Bay",
-		flags = {"source:vendor", "status:retired", "vendor:landro_longshot", "location:booty_bay"}
+		flags = {"source:vendor", "status:retired", "vendor:landro_longshot", "location:booty_bay", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[129] = {
@@ -1395,7 +1396,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tannec Stonebeak",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "status:retired", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[130] = {
@@ -1410,7 +1411,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tannec Stonebeak",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[131] = {
@@ -1425,7 +1426,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tannec Stonebeak",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[132] = {
@@ -1440,7 +1441,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tannec Stonebeak",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[133] = {
@@ -1455,7 +1456,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drakma",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[134] = {
@@ -1470,7 +1471,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drakma",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "status:retired", "vendor:drakma", "zone:orgrimmar", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:drakma", "zone:orgrimmar", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[135] = {
@@ -1485,7 +1486,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drakma",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[136] = {
@@ -1500,7 +1501,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drakma",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[137] = {
@@ -1515,7 +1516,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tannec Stonebeak",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[138] = {
@@ -1530,7 +1531,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tannec Stonebeak",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[139] = {
@@ -1545,7 +1546,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tannec Stonebeak",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold"}
+		flags = {"source:vendor", "vendor:tannec_stonebeak", "zone:stormwind_city", "cost:50", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:alliance"}
 	},
 
 	[140] = {
@@ -1560,7 +1561,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drakma",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[141] = {
@@ -1575,7 +1576,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drakma",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[142] = {
@@ -1590,7 +1591,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Drakma",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "vendor:drakma", "zone:orgrimmar", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[145] = {
@@ -1603,7 +1604,7 @@ local MountData = {
 		mountType = 230,
 		cost = "1",
 		vendor = "Milli Featherwhistle",
-		flags = {"vendor:milli_featherwhistle", "zone:dun_morogh", "cost:1", "currency:gold"}
+		flags = {"vendor:milli_featherwhistle", "zone:dun_morogh", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[146] = {
@@ -1618,7 +1619,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Winaestra",
 		zone = "Eversong Woods",
-		flags = {"source:vendor", "vendor:winaestra", "zone:eversong_woods", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:winaestra", "zone:eversong_woods", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[147] = {
@@ -1633,7 +1634,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Torallius the Pack Handler",
 		zone = "Azuremyst Isle",
-		flags = {"source:vendor", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[149] = {
@@ -1645,7 +1646,7 @@ local MountData = {
 		patch = "2.0",
 		mountType = 230,
 		class = "Paladin",
-		flags = {"source:class", "status:retired"}
+		flags = {"source:class", "status:retired", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[150] = {
@@ -1657,7 +1658,7 @@ local MountData = {
 		patch = "2.0",
 		mountType = 230,
 		class = "Paladin",
-		flags = {"source:class", "status:retired"}
+		flags = {"source:class", "status:retired", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[151] = {
@@ -1672,7 +1673,7 @@ local MountData = {
 		currency = "Halaa Battle Token",
 		vendor = "Aldraan (Alliance)",
 		zone = "Nagrand, Outland",
-		flags = {"source:vendor", "status:retired", "vendor:aldraan_alliance", "zone:nagrand_outland", "cost:100"}
+		flags = {"source:vendor", "status:retired", "vendor:aldraan_alliance", "zone:nagrand_outland", "cost:100", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[152] = {
@@ -1687,7 +1688,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Winaestra",
 		zone = "Eversong Woods",
-		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[153] = {
@@ -1702,7 +1703,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Provisioner Nasela",
 		zone = "Nagrand, Outland",
-		flags = {"source:vendor", "status:retired", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[154] = {
@@ -1717,7 +1718,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Provisioner Nasela",
 		zone = "Nagrand, Outland",
-		flags = {"source:vendor", "status:retired", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[155] = {
@@ -1732,7 +1733,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Provisioner Nasela",
 		zone = "Nagrand, Outland",
-		flags = {"source:vendor", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[156] = {
@@ -1747,7 +1748,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Provisioner Nasela",
 		zone = "Nagrand, Outland",
-		flags = {"source:vendor", "status:retired", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:provisioner_nasela", "zone:nagrand_outland", "zone:nagrand_outlandfaction_the_maghar_exalted", "cost:100", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[157] = {
@@ -1762,7 +1763,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Winaestra",
 		zone = "Eversong Woods",
-		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[158] = {
@@ -1777,7 +1778,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Winaestra",
 		zone = "Eversong Woods",
-		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[159] = {
@@ -1792,7 +1793,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Winaestra",
 		zone = "Eversong Woods",
-		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:1", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[160] = {
@@ -1807,7 +1808,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Winaestra",
 		zone = "Eversong Woods",
-		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[161] = {
@@ -1822,7 +1823,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Winaestra",
 		zone = "Eversong Woods",
-		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:winaestra", "zone:eversong_woods", "cost:10", "currency:gold", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor", "faction:horde"}
 	},
 
 	[162] = {
@@ -1837,7 +1838,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Raider Bork",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "status:retired", "vendor:raider_bork", "zone:orgrimmar", "cost:15"}
+		flags = {"source:vendor", "status:retired", "vendor:raider_bork", "zone:orgrimmar", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[163] = {
@@ -1882,7 +1883,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Torallius the Pack Handler",
 		zone = "Azuremyst Isle",
-		flags = {"source:vendor", "status:retired", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:10", "currency:gold", "faction:alliance"}
 	},
 
 	[166] = {
@@ -1897,7 +1898,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Torallius the Pack Handler",
 		zone = "Azuremyst Isle",
-		flags = {"source:vendor", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:10", "currency:gold", "faction:alliance"}
 	},
 
 	[167] = {
@@ -1912,7 +1913,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Torallius the Pack Handler",
 		zone = "Azuremyst Isle",
-		flags = {"source:vendor", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:torallius_the_pack_handler", "zone:azuremyst_isle", "cost:10", "currency:gold", "faction:alliance"}
 	},
 
 	[168] = {
@@ -1924,7 +1925,7 @@ local MountData = {
 		patch = "2.0",
 		mountType = 230,
 		zone = "Karazhan",
-		flags = {"source:drop", "location:karazhan", "drop:attumen_the_huntsman", "boss:attumen_the_huntsman"}
+		flags = {"source:drop", "source:bmah", "location:karazhan", "drop:attumen_the_huntsman", "boss:attumen_the_huntsman"}
 	},
 
 	[169] = {
@@ -2098,7 +2099,7 @@ local MountData = {
 		patch = "2.1",
 		mountType = 424,
 		zone = "The Eye",
-		flags = {"source:drop", "location:the_eye_tempest_keep", "drop:kaelthas_sunstrider", "boss:kaelthas_sunstrider"}
+		flags = {"source:drop", "source:bmah", "location:the_eye_tempest_keep", "drop:kaelthas_sunstrider", "boss:kaelthas_sunstrider"}
 	},
 
 	[185] = {
@@ -2110,7 +2111,7 @@ local MountData = {
 		patch = "2.1",
 		mountType = 230,
 		zone = "Sethekk Halls (Heroic)",
-		flags = {"source:drop", "zone:sethekk_halls_heroic", "drop:anzu", "boss:anzu"}
+		flags = {"source:drop", "source:bmah", "zone:sethekk_halls_heroic", "drop:anzu", "boss:anzu"}
 	},
 
 	[186] = {
@@ -2245,7 +2246,7 @@ local MountData = {
 		mountType = 230,
 		drop = "Keg-Shaped Treasure Chest",
 		holiday = "Brewfest",
-		flags = {"source:drop", "drop:kegshaped_treasure_chest", "boss:kegshaped_treasure_chest", "holiday:brewfest"}
+		flags = {"source:event", "event:brewfest", "drop:kegshaped_treasure_chest", "boss:kegshaped_treasure_chest", "holiday:brewfest"}
 	},
 
 	[203] = {
@@ -2344,7 +2345,7 @@ local MountData = {
 		patch = "2.4",
 		mountType = 230,
 		zone = "Magisters' Terrace",
-		flags = {"source:drop", "zone:magisters_terrace", "drop:kaelthas_sunstrider", "boss:kaelthas_sunstrider"}
+		flags = {"source:drop", "source:bmah", "zone:magisters_terrace", "drop:kaelthas_sunstrider", "boss:kaelthas_sunstrider"}
 	},
 
 	[219] = {
@@ -2357,7 +2358,7 @@ local MountData = {
 		mountType = 424,
 		drop = "Loot-Filled Pumpkin",
 		holiday = "Hallow's End",
-		flags = {"source:drop", "drop:lootfilled_pumpkin", "boss:lootfilled_pumpkin", "holiday:hallows_end"}
+		flags = {"source:event", "event:hallows_end", "drop:lootfilled_pumpkin", "boss:lootfilled_pumpkin", "holiday:hallows_end"}
 	},
 
 	[220] = {
@@ -2372,7 +2373,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Lieutenant Karter",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15"}
+		flags = {"source:vendor", "vendor:lieutenant_karter", "zone:stormwind_city", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[221] = {
@@ -2444,7 +2445,7 @@ local MountData = {
 		mountType = 230,
 		drop = "Keg-Shaped Treasure Chest",
 		holiday = "Brewfest",
-		flags = {"source:drop", "drop:kegshaped_treasure_chest", "boss:kegshaped_treasure_chest", "holiday:brewfest"}
+		flags = {"source:event", "event:brewfest", "drop:kegshaped_treasure_chest", "boss:kegshaped_treasure_chest", "holiday:brewfest"}
 	},
 
 	[230] = {
@@ -2542,7 +2543,7 @@ local MountData = {
 		patch = "3.0",
 		mountType = 424,
 		zone = "Eye of Eternity",
-		flags = {"source:drop", "location:eye_of_eternity", "drop:alexstraszas_gift", "boss:alexstraszas_gift"}
+		flags = {"source:drop", "source:bmah", "location:eye_of_eternity", "drop:alexstraszas_gift", "boss:alexstraszas_gift"}
 	},
 
 	[247] = {
@@ -2554,7 +2555,7 @@ local MountData = {
 		patch = "3.0",
 		mountType = 424,
 		zone = "Eye of Eternity",
-		flags = {"source:drop", "location:eye_of_eternity", "drop:alexstraszas_gift", "boss:alexstraszas_gift"}
+		flags = {"source:drop", "source:bmah", "location:eye_of_eternity", "drop:alexstraszas_gift", "boss:alexstraszas_gift"}
 	},
 
 	[248] = {
@@ -2611,7 +2612,7 @@ local MountData = {
 	[252] = {
 		mountID = 252,
 		name = "Swift Horde Wolf",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "faction:horde"}
 	},
 
 	[253] = {
@@ -2638,7 +2639,7 @@ local MountData = {
 		currency = "Mark of Honor",
 		vendor = "Knight Dameron",
 		zone = "Wintergrasp",
-		flags = {"source:vendor", "status:retired", "vendor:knight_dameron", "zone:wintergrasp", "cost:15"}
+		flags = {"source:vendor", "status:retired", "vendor:knight_dameron", "zone:wintergrasp", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[255] = {
@@ -2652,7 +2653,7 @@ local MountData = {
 		cost = "15",
 		currency = "Mark of Honor",
 		vendor = "Stone Guard Mukar",
-		flags = {"vendor:stone_guard_mukar", "zone:wintergrasp", "cost:15"}
+		flags = {"vendor:stone_guard_mukar", "zone:wintergrasp", "cost:15", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[256] = {
@@ -2769,7 +2770,7 @@ local MountData = {
 		patch = "3.0",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "status:retired", "legacy:true"}
+		flags = {"source:bmah", "status:retired", "legacy:true"}
 	},
 
 	[267] = {
@@ -2795,7 +2796,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Leading the Cavalry",
 		category = "General",
-		flags = {"source:legacy", "status:retired", "achievement:leading_the_cavalry"}
+		flags = {"source:achievement", "achievement:leading_the_cavalry", "mount_collection:50"}
 	},
 
 	[269] = {
@@ -2835,19 +2836,19 @@ local MountData = {
 		patch = "1.0",
 		mountType = 230,
 		category = "Player vs. Player",
-		flags = {"source:achievement", "achievement:for_the_alliance"}
+		flags = {"source:achievement", "achievement:for_the_alliance", "faction:alliance", "pvp:miscellaneous_killing"}
 	},
 
 	[272] = {
 		mountID = 272,
 		name = "Black War Bear",
 		spellID = 60119,
-		description = "Killing leaders of the Horde is its own reward, but this intimidating beast is an excellent memento.",
-		expansion = "None",
-		patch = "None",
+		description = "Killing leaders of the Alliance is its own reward, but this intimidating beast is an excellent memento.",
+		expansion = "Classic",
+		patch = "1.0",
 		mountType = 230,
 		category = "Player vs. Player",
-		flags = {"achievement:for_the_horde"}
+		flags = {"source:achievement", "achievement:for_the_horde", "faction:horde", "pvp:miscellaneous_killing"}
 	},
 
 	[273] = {
@@ -3064,7 +3065,7 @@ local MountData = {
 		patch = "11.0.5",
 		mountType = 424,
 		zone = "Tanaris",
-		flags = {"source:drop", "zone:tanaris", "drop:doomwalker", "boss:doomwalker"}
+		flags = {"source:event", "event:anniversary", "zone:tanaris", "drop:doomwalker", "boss:doomwalker"}
 	},
 
 	[294] = {
@@ -3128,7 +3129,7 @@ local MountData = {
 		vendor = "Rook Hawkfist",
 		zone = "Icecrown",
 		class = "Paladin",
-		flags = {"source:vendor", "vendor:rook_hawkfist", "zone:icecrown", "cost:100"}
+		flags = {"source:vendor", "vendor:rook_hawkfist", "zone:icecrown", "cost:100", "faction:alliance"}
 	},
 
 	[298] = {
@@ -3236,7 +3237,7 @@ local MountData = {
 		patch = "3.1",
 		mountType = 424,
 		zone = "Ulduar",
-		flags = {"source:drop", "location:ulduar", "drop:yoggsaron", "boss:yoggsaron"}
+		flags = {"source:drop", "source:bmah", "location:ulduar", "drop:yoggsaron", "boss:yoggsaron"}
 	},
 
 	[305] = {
@@ -3252,7 +3253,7 @@ local MountData = {
 		vendor = "Faction Quartermasters",
 		zone = "Argent Tournament",
 		class = "Paladin",
-		flags = {"source:vendor", "vendor:faction_quartermasters", "location:argent_tournament_icecrown", "cost:150"}
+		flags = {"source:expansion_feature", "expansion_feature:argent_tournament", "vendor:faction_quartermasters", "location:argent_tournament_icecrown", "cost:150"}
 	},
 
 	[306] = {
@@ -3353,7 +3354,7 @@ local MountData = {
 		patch = "3.1",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[314] = {
@@ -3380,7 +3381,7 @@ local MountData = {
 		patch = "3.2",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "status:retired", "legacy:true"}
+		flags = {"source:legacy", "status:retired", "legacy:true", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[318] = {
@@ -3704,7 +3705,7 @@ local MountData = {
 		patch = "3.3",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[341] = {
@@ -3732,7 +3733,7 @@ local MountData = {
 		patch = "3.2",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "faction:horde"}
 	},
 
 	[343] = {
@@ -3744,7 +3745,7 @@ local MountData = {
 		patch = "3.2",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "faction:alliance"}
 	},
 
 	[344] = {
@@ -3756,7 +3757,7 @@ local MountData = {
 		patch = "3.2",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "faction:alliance"}
 	},
 
 	[345] = {
@@ -3768,7 +3769,7 @@ local MountData = {
 		patch = "3.2",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "faction:horde"}
 	},
 
 	[349] = {
@@ -3780,7 +3781,7 @@ local MountData = {
 		patch = "3.2.2",
 		mountType = 424,
 		zone = "Onyxia's Lair",
-		flags = {"source:drop", "zone:onyxias_lair", "drop:onyxia", "boss:onyxia"}
+		flags = {"source:drop", "source:bmah", "zone:onyxias_lair", "drop:onyxia", "boss:onyxia"}
 	},
 
 	[350] = {
@@ -3792,7 +3793,7 @@ local MountData = {
 		patch = "4.0",
 		mountType = 230,
 		class = "Paladin",
-		flags = {"source:class"}
+		flags = {"source:class", "faction:horde"}
 	},
 
 	[351] = {
@@ -3804,7 +3805,7 @@ local MountData = {
 		patch = "4.0",
 		mountType = 230,
 		class = "Paladin",
-		flags = {"source:class"}
+		flags = {"source:class", "faction:horde"}
 	},
 
 	[352] = {
@@ -3817,13 +3818,13 @@ local MountData = {
 		mountType = 424,
 		drop = "Heart-Shaped Box",
 		holiday = "Love is in the Air",
-		flags = {"source:drop", "status:retired", "drop:heartshaped_box", "boss:heartshaped_box", "holiday:love_is_in_the_air"}
+		flags = {"source:event", "event:love_is_in_the_air", "status:retired", "drop:heartshaped_box", "boss:heartshaped_box", "holiday:love_is_in_the_air"}
 	},
 
 	[354] = {
 		mountID = 354,
 		name = "Prideful Gladiator's Cloud Serpent",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[358] = {
@@ -3835,7 +3836,7 @@ local MountData = {
 		patch = "4.0",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[363] = {
@@ -3847,7 +3848,7 @@ local MountData = {
 		patch = "3.3",
 		mountType = 424,
 		zone = "Icecrown Citadel",
-		flags = {"source:drop", "zone:icecrown_citadel", "drop:the_lich_king", "boss:the_lich_king"}
+		flags = {"source:drop", "source:bmah", "zone:icecrown_citadel", "drop:the_lich_king", "boss:the_lich_king"}
 	},
 
 	[364] = {
@@ -3897,7 +3898,7 @@ local MountData = {
 		patch = "4.0",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "faction:alliance"}
 	},
 
 	[368] = {
@@ -3908,7 +3909,7 @@ local MountData = {
 		expansion = "Cataclysm",
 		patch = "4.0",
 		mountType = 230,
-		flags = {"source:class"}
+		flags = {"source:class", "faction:alliance"}
 	},
 
 	[371] = {
@@ -3935,7 +3936,7 @@ local MountData = {
 		mountType = 230,
 		vendor = "Landro Longshot",
 		zone = "Booty Bay",
-		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay"}
+		flags = {"source:vendor", "source:bmah", "vendor:landro_longshot", "location:booty_bay"}
 	},
 
 	[373] = {
@@ -4028,7 +4029,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Kall Worthaton",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:kall_worthaton", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:kall_worthaton", "zone:orgrimmar", "cost:1", "currency:gold", "faction:horde"}
 	},
 
 	[389] = {
@@ -4043,7 +4044,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Kall Worthaton",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:kall_worthaton", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:kall_worthaton", "zone:orgrimmar", "cost:10", "currency:gold", "faction:horde"}
 	},
 
 	[391] = {
@@ -4069,7 +4070,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Cataclysm Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_cataclysm_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_cataclysm_raider", "raid_meta:cataclysm"}
 	},
 
 	[393] = {
@@ -4331,7 +4332,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "The Molten Front Offensive",
 		category = "Cataclysm",
-		flags = {"source:unknown", "achievement:the_molten_front_offensive"}
+		flags = {"source:achievement", "achievement:the_molten_front_offensive", "quest_story:molten_front"}
 	},
 
 	[415] = {
@@ -4355,7 +4356,7 @@ local MountData = {
 		patch = "6.0.2",
 		mountType = 424,
 		achievement = "Mountacular",
-		flags = {"source:unknown", "achievement:mountacular"}
+		flags = {"source:achievement", "achievement:mountacular", "mount_collection:250"}
 	},
 
 	[417] = {
@@ -4368,7 +4369,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Firelands Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_firelands_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_firelands_raider", "raid_meta:firelands"}
 	},
 
 	[418] = {
@@ -4429,7 +4430,7 @@ local MountData = {
 		patch = "4.2",
 		mountType = 230,
 		category = "Rated Battleground",
-		flags = {"source:unknown", "achievement:veteran_of_the_alliance_ii"}
+		flags = {"source:achievement", "achievement:veteran_of_the_alliance_ii", "faction:alliance", "pvp:rated_battleground", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[423] = {
@@ -4441,7 +4442,7 @@ local MountData = {
 		patch = "4.2",
 		mountType = 230,
 		category = "Rated Battleground",
-		flags = {"source:vendor", "status:retired", "achievement:veteran_of_the_horde_ii"}
+		flags = {"source:achievement", "achievement:veteran_of_the_horde_ii", "faction:horde", "pvp:rated_battleground", "status:retired", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[424] = {
@@ -4453,7 +4454,7 @@ local MountData = {
 		patch = "4.1",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[425] = {
@@ -4465,7 +4466,7 @@ local MountData = {
 		patch = "4.2",
 		mountType = 230,
 		zone = "Firelands",
-		flags = {"source:drop", "zone:firelands", "drop:alysrazor", "boss:alysrazor"}
+		flags = {"source:drop", "zone:firelands", "drop:alysrazor", "boss:alysrazor", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[426] = {
@@ -4478,7 +4479,7 @@ local MountData = {
 		mountType = 230,
 		vendor = "Landro Longshot",
 		zone = "Booty Bay",
-		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay"}
+		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[428] = {
@@ -4490,7 +4491,7 @@ local MountData = {
 		patch = "4.3",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "status:retired", "legacy:true"}
+		flags = {"source:legacy", "status:retired", "legacy:true", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[429] = {
@@ -4505,7 +4506,7 @@ local MountData = {
 		currency = "Darkmoon Prize Ticket",
 		vendor = "Lhara",
 		zone = "Darkmoon Island",
-		flags = {"source:vendor", "vendor:lhara", "zone:darkmoon_island", "cost:180"}
+		flags = {"source:event", "event:darkmoon_faire", "vendor:lhara", "zone:darkmoon_island", "cost:180", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[430] = {
@@ -4520,7 +4521,7 @@ local MountData = {
 		currency = "Noblegarden Chocolate",
 		vendor = "Noblegarden Merchant",
 		zone = "Durotar, Eversong Woods, Mulgore, Tirisfal Glades, Azuremyst Isle,",
-		flags = {"source:vendor", "vendor:noblegarden_merchant", "zone:durotar_eversong_woods_mulgore_tirisfal_glades_azuremyst_isle", "zone:durotar_eversong_woods_mulgore_tirisfal_glades_azuremyst_isle_dun_morogh_elwynn_forest_teldrassil", "cost:500"}
+		flags = {"source:event", "event:noblegarden", "vendor:noblegarden_merchant", "zone:durotar_eversong_woods_mulgore_tirisfal_glades_azuremyst_isle", "zone:durotar_eversong_woods_mulgore_tirisfal_glades_azuremyst_isle_dun_morogh_elwynn_forest_teldrassil", "cost:500", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[431] = {
@@ -4535,7 +4536,7 @@ local MountData = {
 		currency = "Love Token",
 		vendor = "Lovely Merchant (Alliance)",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:lovely_merchant_alliance", "zone:stormwind_city", "cost:270"}
+		flags = {"source:event", "event:love_is_in_the_air", "vendor:lovely_merchant_alliance", "zone:stormwind_city", "cost:270", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[432] = {
@@ -4548,7 +4549,7 @@ local MountData = {
 		mountType = 230,
 		vendor = "Landro Longshot",
 		zone = "Booty Bay",
-		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay"}
+		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[433] = {
@@ -4561,7 +4562,7 @@ local MountData = {
 		mountType = 424,
 		vendor = "Landro Longshot",
 		zone = "Booty Bay",
-		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay"}
+		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[434] = {
@@ -4576,7 +4577,7 @@ local MountData = {
 		currency = "Darkmoon Prize Ticket",
 		vendor = "Lhara",
 		zone = "Darkmoon Island",
-		flags = {"source:vendor", "vendor:lhara", "zone:darkmoon_island", "cost:180"}
+		flags = {"source:event", "event:darkmoon_faire", "vendor:lhara", "zone:darkmoon_island", "cost:180", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[435] = {
@@ -4591,7 +4592,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Astrid Langstrump",
 		zone = "Darnassus",
-		flags = {"source:vendor", "vendor:astrid_langstrump", "zone:darnassus", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:astrid_langstrump", "zone:darnassus", "cost:1", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[436] = {
@@ -4606,7 +4607,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Astrid Langstrump",
 		zone = "Darnassus",
-		flags = {"source:vendor", "status:retired", "vendor:astrid_langstrump", "zone:darnassus", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:astrid_langstrump", "zone:darnassus", "cost:10", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[439] = {
@@ -4619,7 +4620,7 @@ local MountData = {
 		mountType = 424,
 		currency = "Curious Coins",
 		source = "Trading Post",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[440] = {
@@ -4630,7 +4631,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.7",
 		mountType = 424,
-		flags = {"source:promotion"}
+		flags = {"source:promotion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[441] = {
@@ -4641,7 +4642,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.7",
 		mountType = 424,
-		flags = {"source:promotion", "status:retired"}
+		flags = {"source:promotion", "status:retired", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[442] = {
@@ -4653,7 +4654,7 @@ local MountData = {
 		patch = "4.3",
 		mountType = 424,
 		zone = "Dragon Soul",
-		flags = {"source:drop", "location:dragon_soul", "drop:elementium_fragment", "boss:elementium_fragment"}
+		flags = {"source:drop", "source:bmah", "location:dragon_soul", "drop:elementium_fragment", "boss:elementium_fragment", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[443] = {
@@ -4666,7 +4667,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Dragon Soul Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_dragon_soul_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_dragon_soul_raider", "raid_meta:dragon_soul", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[444] = {
@@ -4678,7 +4679,7 @@ local MountData = {
 		patch = "4.3",
 		mountType = 424,
 		zone = "Dragon Soul",
-		flags = {"source:drop", "location:dragon_soul", "drop:elementium_fragment", "boss:elementium_fragment"}
+		flags = {"source:drop", "source:bmah", "location:dragon_soul", "drop:elementium_fragment", "boss:elementium_fragment", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[445] = {
@@ -4690,7 +4691,7 @@ local MountData = {
 		patch = "4.3",
 		mountType = 424,
 		zone = "Dragon Soul",
-		flags = {"source:drop", "location:dragon_soul", "drop:lesser_cache_of_the_aspects", "boss:lesser_cache_of_the_aspects"}
+		flags = {"source:drop", "source:bmah", "location:dragon_soul", "drop:lesser_cache_of_the_aspects", "boss:lesser_cache_of_the_aspects", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[446] = {
@@ -4702,7 +4703,7 @@ local MountData = {
 		patch = "4.3",
 		mountType = 424,
 		source = "In-Game Shop",
-		flags = {"source:in-game_shop"}
+		flags = {"source:in-game_shop", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[447] = {
@@ -4715,7 +4716,7 @@ local MountData = {
 		mountType = 424,
 		vendor = "Landro Longshot",
 		zone = "Booty Bay",
-		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay"}
+		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[448] = {
@@ -4727,7 +4728,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		zone = "The Jade Forest",
-		flags = {"source:quest", "zone:the_jade_forest", "quest:riding_the_skies"}
+		flags = {"source:quest", "zone:the_jade_forest", "quest:riding_the_skies", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[449] = {
@@ -4742,7 +4743,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Nat Pagle",
 		zone = "Krasarang Wilds",
-		flags = {"source:vendor", "vendor:nat_pagle", "zone:krasarang_wilds", "zone:krasarang_wildsfaction_the_anglers_exalted", "cost:1000", "currency:gold"}
+		flags = {"source:vendor", "vendor:nat_pagle", "zone:krasarang_wilds", "zone:krasarang_wildsfaction_the_anglers_exalted", "cost:1000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[450] = {
@@ -4755,7 +4756,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Pandaren Ambassador",
 		category = "Pandaria",
-		flags = {"source:achievement", "achievement:pandaren_ambassador"}
+		flags = {"source:achievement", "achievement:pandaren_ambassador", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[451] = {
@@ -4766,7 +4767,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:jewelcrafting"}
+		flags = {"source:profession", "profession:jewelcrafting", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[452] = {
@@ -4781,7 +4782,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[453] = {
@@ -4796,7 +4797,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[454] = {
@@ -4808,7 +4809,7 @@ local MountData = {
 		patch = "11.0.0",
 		mountType = 424,
 		source = "Recruit-a-Friend",
-		flags = {"source:recruit-a-friend"}
+		flags = {"source:recruit-a-friend", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[455] = {
@@ -4820,7 +4821,7 @@ local MountData = {
 		patch = "4.3",
 		mountType = 424,
 		source = "Recruit-a-Friend",
-		flags = {"source:recruit-a-friend"}
+		flags = {"source:recruit-a-friend", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[456] = {
@@ -4831,7 +4832,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:jewelcrafting"}
+		flags = {"source:profession", "profession:jewelcrafting", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[457] = {
@@ -4842,7 +4843,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:jewelcrafting"}
+		flags = {"source:profession", "profession:jewelcrafting", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[458] = {
@@ -4853,7 +4854,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:jewelcrafting"}
+		flags = {"source:profession", "profession:jewelcrafting", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[459] = {
@@ -4864,7 +4865,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:jewelcrafting"}
+		flags = {"source:profession", "profession:jewelcrafting", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[460] = {
@@ -4879,7 +4880,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Uncle Bigpocket",
 		zone = "Kun-Lai Summit",
-		flags = {"source:vendor", "vendor:uncle_bigpocket", "zone:kunlai_summit", "cost:120000", "currency:gold"}
+		flags = {"source:vendor", "vendor:uncle_bigpocket", "zone:kunlai_summit", "cost:120000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[462] = {
@@ -4890,7 +4891,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[463] = {
@@ -4905,7 +4906,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Ambersmith Zikk",
 		zone = "Dread Wastes",
-		flags = {"source:vendor", "vendor:ambersmith_zikk", "zone:dread_wastes", "zone:dread_wastesfaction_the_klaxxi_exalted", "cost:10000", "currency:gold"}
+		flags = {"source:vendor", "vendor:ambersmith_zikk", "zone:dread_wastes", "zone:dread_wastesfaction_the_klaxxi_exalted", "cost:10000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[464] = {
@@ -4917,7 +4918,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		zone = "The Jade Forest",
-		flags = {"source:quest", "zone:the_jade_forest", "quest:riding_the_skies"}
+		flags = {"source:quest", "zone:the_jade_forest", "quest:riding_the_skies", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[465] = {
@@ -4929,7 +4930,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		zone = "The Jade Forest",
-		flags = {"source:quest", "zone:the_jade_forest", "quest:riding_the_skies"}
+		flags = {"source:quest", "zone:the_jade_forest", "quest:riding_the_skies", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[466] = {
@@ -4944,7 +4945,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Shay Pressler (Alliance)",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:shay_pressler_alliance", "zone:stormwind_city", "cost:3000", "currency:gold"}
+		flags = {"source:vendor", "vendor:shay_pressler_alliance", "zone:stormwind_city", "cost:3000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[467] = {
@@ -4956,7 +4957,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[468] = {
@@ -4967,7 +4968,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0",
 		mountType = 424,
-		flags = {"source:promotion"}
+		flags = {"source:promotion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[469] = {
@@ -4978,7 +4979,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:engineering"}
+		flags = {"source:profession", "profession:engineering", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[470] = {
@@ -4989,7 +4990,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.0.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:engineering"}
+		flags = {"source:profession", "profession:engineering", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[471] = {
@@ -5001,7 +5002,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		zone = "Townlong Steppes",
-		flags = {"source:quest", "location:townlong_steppes", "quest:surprise_attack"}
+		flags = {"source:quest", "location:townlong_steppes", "quest:surprise_attack", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[472] = {
@@ -5014,7 +5015,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Pandaria Hero",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_pandaria_hero"}
+		flags = {"source:achievement", "achievement:glory_of_the_pandaria_hero", "dungeon_meta:pandaria", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[473] = {
@@ -5026,7 +5027,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		zone = "Kun-Lai Summit",
-		flags = {"source:drop", "location:kunlai_summit", "drop:sha_of_anger", "boss:sha_of_anger"}
+		flags = {"source:drop", "location:kunlai_summit", "drop:sha_of_anger", "boss:sha_of_anger", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[474] = {
@@ -5039,7 +5040,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Pandaria Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_pandaria_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_pandaria_raider", "raid_meta:pandaria", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[475] = {
@@ -5052,7 +5053,7 @@ local MountData = {
 		mountType = 424,
 		vendor = "Mistweaver Ku",
 		zone = "Timeless Isle",
-		flags = {"source:vendor", "vendor:mistweaver_ku", "zone:timeless_isle", "zone:timeless_islefaction_emperor_shaohao_exalted"}
+		flags = {"source:vendor", "vendor:mistweaver_ku", "zone:timeless_isle", "zone:timeless_islefaction_emperor_shaohao_exalted", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[476] = {
@@ -5067,7 +5068,7 @@ local MountData = {
 		currency = "Timewarped Badge",
 		vendor = "Mistweaver Xia",
 		zone = "Timeless Isle",
-		flags = {"source:vendor", "vendor:mistweaver_xia", "zone:timeless_isle", "cost:5000"}
+		flags = {"source:vendor", "vendor:mistweaver_xia", "zone:timeless_isle", "cost:5000", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[477] = {
@@ -5080,7 +5081,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Lord of the Reins",
 		category = "Mounts",
-		flags = {"source:unknown", "achievement:lord_of_the_reins"}
+		flags = {"source:achievement", "achievement:lord_of_the_reins", "mount_collection:300", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[478] = {
@@ -5092,7 +5093,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		drop = "Cache of Pure Energy",
-		flags = {"source:drop", "drop:cache_of_pure_energy", "boss:cache_of_pure_energy"}
+		flags = {"source:drop", "drop:cache_of_pure_energy", "boss:cache_of_pure_energy", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[479] = {
@@ -5107,7 +5108,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Jaluu the Generous",
 		zone = "Vale of Eternal Blossoms",
-		flags = {"source:vendor", "vendor:jaluu_the_generous", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_golden_lotus_exalted", "cost:500", "currency:gold"}
+		flags = {"source:vendor", "vendor:jaluu_the_generous", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_golden_lotus_exalted", "cost:500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[480] = {
@@ -5122,7 +5123,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Jaluu the Generous",
 		zone = "Vale of Eternal Blossoms",
-		flags = {"source:vendor", "vendor:jaluu_the_generous", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_golden_lotus_exalted", "cost:2500", "currency:gold"}
+		flags = {"source:vendor", "vendor:jaluu_the_generous", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_golden_lotus_exalted", "cost:2500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[481] = {
@@ -5137,7 +5138,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Jaluu the Generous",
 		zone = "Vale of Eternal Blossoms",
-		flags = {"source:vendor", "vendor:jaluu_the_generous", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_golden_lotus_exalted", "cost:1500", "currency:gold"}
+		flags = {"source:vendor", "vendor:jaluu_the_generous", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_golden_lotus_exalted", "cost:1500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[482] = {
@@ -5148,7 +5149,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[484] = {
@@ -5159,7 +5160,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[485] = {
@@ -5170,7 +5171,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[486] = {
@@ -5185,7 +5186,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Uncle Bigpocket",
 		zone = "Kun-Lai Summit",
-		flags = {"source:vendor", "vendor:uncle_bigpocket", "zone:kunlai_summit", "cost:3000", "currency:gold"}
+		flags = {"source:vendor", "vendor:uncle_bigpocket", "zone:kunlai_summit", "cost:3000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[487] = {
@@ -5200,7 +5201,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Uncle Bigpocket",
 		zone = "Kun-Lai Summit",
-		flags = {"source:vendor", "vendor:uncle_bigpocket", "zone:kunlai_summit", "cost:3000", "currency:gold"}
+		flags = {"source:vendor", "vendor:uncle_bigpocket", "zone:kunlai_summit", "cost:3000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[488] = {
@@ -5215,7 +5216,7 @@ local MountData = {
 		currency = "Nat's Lucky Coin",
 		vendor = "Nat Pagle",
 		zone = "Garrison: Fishing Shack",
-		flags = {"source:vendor", "vendor:nat_pagle", "zone:garrison_fishing_shack", "zone:garrison_fishing_shackfaction_nat_pagle_honored", "cost:100"}
+		flags = {"source:vendor", "vendor:nat_pagle", "zone:garrison_fishing_shack", "zone:garrison_fishing_shackfaction_nat_pagle_honored", "cost:100", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[492] = {
@@ -5230,7 +5231,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[493] = {
@@ -5245,7 +5246,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[494] = {
@@ -5260,7 +5261,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[495] = {
@@ -5275,7 +5276,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[496] = {
@@ -5290,7 +5291,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:1", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[497] = {
@@ -5305,7 +5306,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[498] = {
@@ -5320,7 +5321,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[499] = {
@@ -5335,7 +5336,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[500] = {
@@ -5350,7 +5351,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[501] = {
@@ -5365,7 +5366,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Turtlemaster Odai",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold"}
+		flags = {"source:vendor", "vendor:turtlemaster_odai", "zone:orgrimmar", "cost:10", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[503] = {
@@ -5380,7 +5381,7 @@ local MountData = {
 		currency = "Ancestral Phoenix Egg",
 		vendor = "Kai Featherfall",
 		zone = "Vale of Eternal Blossoms",
-		flags = {"source:vendor", "vendor:kai_featherfall", "location:vale_of_eternal_blossoms", "cost:1"}
+		flags = {"source:vendor", "vendor:kai_featherfall", "location:vale_of_eternal_blossoms", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[504] = {
@@ -5395,7 +5396,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Sage Whiteheart (Alliance)",
 		zone = "Vale of Eternal Blossoms",
-		flags = {"source:vendor", "vendor:sage_whiteheart_alliance", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_the_august_celestials_exalted", "cost:10000", "currency:gold"}
+		flags = {"source:vendor", "vendor:sage_whiteheart_alliance", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_the_august_celestials_exalted", "cost:10000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[505] = {
@@ -5410,7 +5411,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Rushi the Fox",
 		zone = "Townlong Steppes",
-		flags = {"source:vendor", "vendor:rushi_the_fox", "zone:townlong_steppes", "zone:townlong_steppesfaction_shadopan_exalted", "cost:1500", "currency:gold"}
+		flags = {"source:vendor", "vendor:rushi_the_fox", "zone:townlong_steppes", "zone:townlong_steppesfaction_shadopan_exalted", "cost:1500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[506] = {
@@ -5425,7 +5426,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Rushi the Fox",
 		zone = "Townlong Steppes",
-		flags = {"source:vendor", "vendor:rushi_the_fox", "zone:townlong_steppes", "zone:townlong_steppesfaction_shadopan_exalted", "cost:500", "currency:gold"}
+		flags = {"source:vendor", "vendor:rushi_the_fox", "zone:townlong_steppes", "zone:townlong_steppesfaction_shadopan_exalted", "cost:500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[507] = {
@@ -5440,7 +5441,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Rushi the Fox",
 		zone = "Townlong Steppes",
-		flags = {"source:vendor", "vendor:rushi_the_fox", "zone:townlong_steppes", "zone:townlong_steppesfaction_shadopan_exalted", "cost:2500", "currency:gold"}
+		flags = {"source:vendor", "vendor:rushi_the_fox", "zone:townlong_steppes", "zone:townlong_steppesfaction_shadopan_exalted", "cost:2500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[508] = {
@@ -5455,7 +5456,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Gina Mudclaw",
 		zone = "Valley of the Four Winds",
-		flags = {"source:vendor", "vendor:gina_mudclaw", "zone:valley_of_the_four_winds", "zone:valley_of_the_four_windsfaction_the_tillers_exalted", "cost:500", "currency:gold"}
+		flags = {"source:vendor", "vendor:gina_mudclaw", "zone:valley_of_the_four_winds", "zone:valley_of_the_four_windsfaction_the_tillers_exalted", "cost:500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[509] = {
@@ -5470,7 +5471,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tan Shin Tiao",
 		zone = "Vale of Eternal Blossoms",
-		flags = {"source:vendor", "vendor:tan_shin_tiao", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_the_lorewalkers_exalted", "cost:600", "currency:gold"}
+		flags = {"source:vendor", "vendor:tan_shin_tiao", "zone:vale_of_eternal_blossoms", "zone:vale_of_eternal_blossomsfaction_the_lorewalkers_exalted", "cost:600", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[510] = {
@@ -5485,7 +5486,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Gina Mudclaw",
 		zone = "Timeless Isle",
-		flags = {"source:vendor", "vendor:gina_mudclaw", "zone:timeless_isle", "zone:timeless_islefaction_the_tillers_exalted", "cost:3250", "currency:gold"}
+		flags = {"source:vendor", "vendor:gina_mudclaw", "zone:timeless_isle", "zone:timeless_islefaction_the_tillers_exalted", "cost:3250", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[511] = {
@@ -5500,7 +5501,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Gina Mudclaw",
 		zone = "Timeless Isle",
-		flags = {"source:vendor", "vendor:gina_mudclaw", "zone:timeless_isle", "zone:timeless_islefaction_the_tillers_exalted", "cost:1500", "currency:gold"}
+		flags = {"source:vendor", "vendor:gina_mudclaw", "zone:timeless_isle", "zone:timeless_islefaction_the_tillers_exalted", "cost:1500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[515] = {
@@ -5512,7 +5513,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 230,
 		zone = "Valley of the Four Winds",
-		flags = {"source:drop", "location:valley_of_the_four_winds", "drop:galleon", "boss:galleon"}
+		flags = {"source:drop", "location:valley_of_the_four_winds", "drop:galleon", "boss:galleon", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[516] = {
@@ -5525,7 +5526,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Pandaren Ambassador",
 		category = "Pandaria",
-		flags = {"achievement:pandaren_ambassador"}
+		flags = {"achievement:pandaren_ambassador", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[517] = {
@@ -5537,7 +5538,7 @@ local MountData = {
 		patch = "5.0.4",
 		mountType = 424,
 		zone = "Vale of Eternal Blossoms",
-		flags = {"source:drop", "zone:vale_of_eternal_blossoms", "drop:alani", "boss:alani"}
+		flags = {"source:drop", "zone:vale_of_eternal_blossoms", "drop:alani", "boss:alani", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[518] = {
@@ -5551,7 +5552,7 @@ local MountData = {
 		cost = "1",
 		currency = "Ancestral Phoenix Egg",
 		vendor = "World Vendors",
-		flags = {"source:vendor", "vendor:world_vendors", "cost:1"}
+		flags = {"source:vendor", "vendor:world_vendors", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[519] = {
@@ -5565,7 +5566,7 @@ local MountData = {
 		cost = "1",
 		currency = "Ancestral Phoenix Egg",
 		vendor = "World Vendors",
-		flags = {"source:vendor", "vendor:world_vendors", "cost:1"}
+		flags = {"source:vendor", "vendor:world_vendors", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[520] = {
@@ -5579,7 +5580,7 @@ local MountData = {
 		cost = "1",
 		currency = "Ancestral Phoenix Egg",
 		vendor = "World Vendors",
-		flags = {"source:vendor", "vendor:world_vendors", "cost:1"}
+		flags = {"source:vendor", "vendor:world_vendors", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[521] = {
@@ -5592,7 +5593,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "We're Going to Need More Saddles",
 		category = "General",
-		flags = {"source:unknown", "achievement:were_going_to_need_more_saddles"}
+		flags = {"source:achievement", "achievement:were_going_to_need_more_saddles", "mount_collection:150", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[522] = {
@@ -5603,7 +5604,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.4",
 		mountType = 424,
-		flags = {"source:profession", "profession:engineering"}
+		flags = {"source:profession", "profession:engineering", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[523] = {
@@ -5615,7 +5616,7 @@ local MountData = {
 		patch = "10.2",
 		mountType = 424,
 		source = "In-Game Shop",
-		flags = {"source:in-game_shop"}
+		flags = {"source:in-game_shop", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[526] = {
@@ -5630,7 +5631,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Agent Malley",
 		zone = "Krasarang Wilds",
-		flags = {"source:vendor", "vendor:agent_malley", "zone:krasarang_wilds", "zone:krasarang_wildsfaction_operation_shieldwall_exalted", "cost:2000", "currency:gold"}
+		flags = {"source:vendor", "vendor:agent_malley", "zone:krasarang_wilds", "zone:krasarang_wildsfaction_operation_shieldwall_exalted", "cost:2000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[527] = {
@@ -5645,7 +5646,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Tuskripper Grukna",
 		zone = "Krasarang Wilds",
-		flags = {"source:vendor", "vendor:tuskripper_grukna", "zone:krasarang_wilds", "zone:krasarang_wildsfaction_dominance_offensive_exalted", "cost:2000", "currency:gold"}
+		flags = {"source:vendor", "vendor:tuskripper_grukna", "zone:krasarang_wilds", "zone:krasarang_wildsfaction_dominance_offensive_exalted", "cost:2000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[528] = {
@@ -5657,7 +5658,7 @@ local MountData = {
 		patch = "5.1",
 		mountType = 424,
 		zone = "Kun-Lai Summit",
-		flags = {"source:quest", "zone:kunlai_summit", "quest:the_silence"}
+		flags = {"source:quest", "zone:kunlai_summit", "quest:the_silence", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[529] = {
@@ -5669,7 +5670,7 @@ local MountData = {
 		patch = "5.1",
 		mountType = 424,
 		zone = "Kun-Lai Summit",
-		flags = {"source:quest", "zone:kunlai_summit", "quest:breath_of_darkest_shadow"}
+		flags = {"source:quest", "zone:kunlai_summit", "quest:breath_of_darkest_shadow", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[530] = {
@@ -5682,7 +5683,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Thundering Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_thundering_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_thundering_raider", "raid_meta:throne_of_thunder", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[531] = {
@@ -5694,7 +5695,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		zone = "Throne of Thunder",
-		flags = {"source:drop", "zone:throne_of_thunder", "drop:horridon", "boss:horridon"}
+		flags = {"source:drop", "zone:throne_of_thunder", "drop:horridon", "boss:horridon", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[532] = {
@@ -5707,7 +5708,7 @@ local MountData = {
 		mountType = 424,
 		vendor = "Landro Longshot",
 		zone = "Booty Bay",
-		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay"}
+		flags = {"source:vendor", "vendor:landro_longshot", "location:booty_bay", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[533] = {
@@ -5719,7 +5720,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		zone = "Isle of Giants",
-		flags = {"source:drop", "location:isle_of_giants", "drop:oondasta", "boss:oondasta"}
+		flags = {"source:drop", "location:isle_of_giants", "drop:oondasta", "boss:oondasta", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[534] = {
@@ -5731,7 +5732,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		zone = "Dread Wastes",
-		flags = {"source:drop", "zone:dread_wastes_kunlai_summit_townlong_steppes_valley_of_the_four_winds", "drop:zandalari_warbringer", "boss:zandalari_warbringer"}
+		flags = {"source:drop", "zone:dread_wastes_kunlai_summit_townlong_steppes_valley_of_the_four_winds", "drop:zandalari_warbringer", "boss:zandalari_warbringer", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[535] = {
@@ -5743,7 +5744,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		zone = "Dread Wastes",
-		flags = {"source:drop", "zone:dread_wastes_krasarang_wilds_kunlai_summit_townlong_steppes_valley_of_the_four_winds", "drop:zandalari_warbringer", "boss:zandalari_warbringer"}
+		flags = {"source:drop", "zone:dread_wastes_krasarang_wilds_kunlai_summit_townlong_steppes_valley_of_the_four_winds", "drop:zandalari_warbringer", "boss:zandalari_warbringer", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[536] = {
@@ -5755,7 +5756,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		zone = "Dread Wastes",
-		flags = {"source:drop", "zone:dread_wastes_kunlai_summit_townlong_steppes_valley_of_the_four_winds", "drop:zandalari_warbringer", "boss:zandalari_warbringer"}
+		flags = {"source:drop", "zone:dread_wastes_kunlai_summit_townlong_steppes_valley_of_the_four_winds", "drop:zandalari_warbringer", "boss:zandalari_warbringer", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[537] = {
@@ -5767,7 +5768,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		zone = "Isle of Giants",
-		flags = {"source:quest", "zone:isle_of_giants", "quest:a_mountain_of_giant_dinosaur_bones"}
+		flags = {"source:quest", "zone:isle_of_giants", "quest:a_mountain_of_giant_dinosaur_bones", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[538] = {
@@ -5779,7 +5780,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		drop = "Cracked Primal Egg",
-		flags = {"source:drop", "drop:cracked_primal_egg", "boss:cracked_primal_egg"}
+		flags = {"source:drop", "drop:cracked_primal_egg", "boss:cracked_primal_egg", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[539] = {
@@ -5791,7 +5792,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		drop = "Cracked Primal Egg",
-		flags = {"source:drop", "drop:cracked_primal_egg", "boss:cracked_primal_egg"}
+		flags = {"source:drop", "drop:cracked_primal_egg", "boss:cracked_primal_egg", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[540] = {
@@ -5803,7 +5804,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 230,
 		drop = "Cracked Primal Egg",
-		flags = {"source:drop", "drop:cracked_primal_egg", "boss:cracked_primal_egg"}
+		flags = {"source:drop", "drop:cracked_primal_egg", "boss:cracked_primal_egg", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[541] = {
@@ -5815,7 +5816,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[542] = {
@@ -5827,7 +5828,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 424,
 		zone = "Isle of Thunder",
-		flags = {"source:drop", "location:isle_of_thunder", "drop:nalak", "boss:nalak"}
+		flags = {"source:drop", "location:isle_of_thunder", "drop:nalak", "boss:nalak", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[543] = {
@@ -5839,7 +5840,7 @@ local MountData = {
 		patch = "5.2",
 		mountType = 424,
 		zone = "Throne of Thunder",
-		flags = {"source:drop", "zone:throne_of_thunder", "drop:jikun", "boss:jikun"}
+		flags = {"source:drop", "zone:throne_of_thunder", "drop:jikun", "boss:jikun", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[544] = {
@@ -5851,7 +5852,7 @@ local MountData = {
 		patch = "10.1.7",
 		mountType = 424,
 		source = "In-Game Shop",
-		flags = {"source:in-game_shop"}
+		flags = {"source:in-game_shop", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[545] = {
@@ -5866,7 +5867,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Hiren Loresong",
 		zone = "Isle of Thunder",
-		flags = {"source:vendor", "vendor:hiren_loresong", "zone:isle_of_thunder", "zone:isle_of_thunderfaction_kirin_tor_offensive_exalted", "cost:3000", "currency:gold"}
+		flags = {"source:vendor", "vendor:hiren_loresong", "zone:isle_of_thunder", "zone:isle_of_thunderfaction_kirin_tor_offensive_exalted", "cost:3000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[546] = {
@@ -5881,7 +5882,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Vasarin Redmorn",
 		zone = "Isle of Thunder",
-		flags = {"source:vendor", "vendor:vasarin_redmorn", "zone:isle_of_thunder", "zone:isle_of_thunderfaction_sunreaver_onslaught_exalted", "cost:3000", "currency:gold"}
+		flags = {"source:vendor", "vendor:vasarin_redmorn", "zone:isle_of_thunder", "zone:isle_of_thunderfaction_sunreaver_onslaught_exalted", "cost:3000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[547] = {
@@ -5892,7 +5893,7 @@ local MountData = {
 		expansion = "Mists of Pandaria",
 		patch = "5.4.7",
 		mountType = 424,
-		flags = {"source:promotion"}
+		flags = {"source:promotion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[548] = {
@@ -5905,7 +5906,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Mount Parade",
 		category = "General",
-		flags = {"source:achievement", "achievement:mount_parade"}
+		flags = {"source:achievement", "achievement:mount_parade", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[549] = {
@@ -5918,7 +5919,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Mount Parade",
 		category = "General",
-		flags = {"source:achievement", "achievement:mount_parade"}
+		flags = {"source:achievement", "achievement:mount_parade", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[550] = {
@@ -5933,7 +5934,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Paul North",
 		zone = "Brawl'gar Arena",
-		flags = {"source:vendor", "vendor:paul_north", "zone:brawlgar_arena", "cost:1500", "currency:gold"}
+		flags = {"source:vendor", "vendor:paul_north", "zone:brawlgar_arena", "cost:1500", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[551] = {
@@ -5945,7 +5946,7 @@ local MountData = {
 		patch = "5.4.1",
 		mountType = 424,
 		source = "In-Game Shop",
-		flags = {"source:in-game_shop"}
+		flags = {"source:in-game_shop", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[552] = {
@@ -5960,7 +5961,7 @@ local MountData = {
 		currency = "Timewarped Badge",
 		vendor = "Auzin",
 		zone = "Dalaran",
-		flags = {"source:vendor", "vendor:auzin", "zone:dalaran", "cost:5000"}
+		flags = {"source:vendor", "vendor:auzin", "zone:dalaran", "cost:5000", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[554] = {
@@ -5975,7 +5976,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[555] = {
@@ -5990,7 +5991,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[557] = {
@@ -6003,7 +6004,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Orgrimmar Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_orgrimmar_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_orgrimmar_raider", "raid_meta:siege_of_orgrimmar"}
 	},
 
 	[558] = {
@@ -6067,7 +6068,7 @@ local MountData = {
 		patch = "5.4",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[563] = {
@@ -6079,7 +6080,7 @@ local MountData = {
 		patch = "5.4.0",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[564] = {
@@ -6091,7 +6092,7 @@ local MountData = {
 		patch = "5.4.7",
 		mountType = 424,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[568] = {
@@ -6186,7 +6187,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Boldly",
 		category = "Feats of Strength",
-		flags = {"source:unknown", "achievement:boldly_you_sought_the_power_of_ragnaros"}
+		flags = {"source:achievement", "achievement:boldly_you_sought_the_power_of_ragnaros", "anniversary:10th"}
 	},
 
 	[607] = {
@@ -6338,7 +6339,7 @@ local MountData = {
 		patch = "6.0.3",
 		mountType = 230,
 		achievement = "Guild Glory of the Draenor Raider",
-		flags = {"source:unknown", "achievement:guild_glory_of_the_draenor_raider"}
+		flags = {"source:achievement", "achievement:guild_glory_of_the_draenor_raider", "raid_meta:draenor_guild"}
 	},
 
 	[620] = {
@@ -6365,7 +6366,7 @@ local MountData = {
 		patch = "6.0.3",
 		mountType = 230,
 		achievement = "Advanced Husbandry",
-		flags = {"source:unknown", "achievement:advanced_husbandry"}
+		flags = {"source:achievement", "achievement:advanced_husbandry", "garrison:stable_master"}
 	},
 
 	[622] = {
@@ -6389,7 +6390,7 @@ local MountData = {
 		patch = "6.0.3",
 		mountType = 230,
 		achievement = "Glory of the Draenor Hero",
-		flags = {"source:unknown", "achievement:glory_of_the_draenor_hero"}
+		flags = {"source:achievement", "achievement:glory_of_the_draenor_hero", "dungeon_meta:warlords_of_draenor"}
 	},
 
 	[624] = {
@@ -6610,7 +6611,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[641] = {
@@ -6625,7 +6626,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[642] = {
@@ -6751,7 +6752,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Warlord's Deathwheel",
 		category = "Feats of Strength",
-		flags = {"source:unknown", "status:retired", "achievement:warlords_deathwheel"}
+		flags = {"source:achievement", "status:retired", "achievement:warlords_deathwheel", "pvp:ashran"}
 	},
 
 	[652] = {
@@ -6778,7 +6779,7 @@ local MountData = {
 		patch = "6.0.3",
 		mountType = 230,
 		achievement = "Challenge Warlord: Silver",
-		flags = {"source:unknown", "achievement:challenge_warlord_silver"}
+		flags = {"source:achievement", "achievement:challenge_warlord_silver"}
 	},
 
 	[655] = {
@@ -6839,7 +6840,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Drake Collector",
 		category = "Mounts",
-		flags = {"source:unknown", "achievement:drake_collector"}
+		flags = {"source:achievement", "achievement:drake_collector"}
 	},
 
 	[673] = {
@@ -6857,7 +6858,7 @@ local MountData = {
 		patch = "6.1",
 		mountType = 284,
 		achievement = "Heirloom Hoarder",
-		flags = {"source:unknown", "achievement:heirloom_hoarder"}
+		flags = {"source:achievement", "achievement:heirloom_hoarder"}
 	},
 
 	[679] = {
@@ -6869,7 +6870,7 @@ local MountData = {
 		patch = "6.1",
 		mountType = 284,
 		achievement = "Heirloom Hoarder",
-		flags = {"source:unknown", "achievement:heirloom_hoarder"}
+		flags = {"source:achievement", "achievement:heirloom_hoarder"}
 	},
 
 	[682] = {
@@ -6887,19 +6888,19 @@ local MountData = {
 	[696] = {
 		mountID = 696,
 		name = "Primal Gladiator's Felblood Gronnling",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[701] = {
 		mountID = 701,
 		name = "Wild Gladiator's Felblood Gronnling",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[702] = {
 		mountID = 702,
 		name = "Warmongering Gladiator's Felblood Gronnling",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[708] = {
@@ -6959,7 +6960,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[756] = {
@@ -6974,7 +6975,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[758] = {
@@ -6999,7 +7000,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Gladiator: Warlords Season 1",
 		category = "Feats of Strength",
-		flags = {"source:unknown", "achievement:gladiator_warlords_season_1"}
+		flags = {"source:achievement", "achievement:gladiator_warlords_season_1", "pvp:gladiator", "season:warlords_1"}
 	},
 
 	[760] = {
@@ -7012,7 +7013,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Gladiator: Warlords Season 2",
 		category = "Feats of Strength",
-		flags = {"source:unknown", "achievement:gladiator_warlords_season_2"}
+		flags = {"source:achievement", "achievement:gladiator_warlords_season_2", "pvp:gladiator", "season:warlords_2"}
 	},
 
 	[761] = {
@@ -7025,7 +7026,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Gladiator: Warlords Season 3",
 		category = "Feats of Strength",
-		flags = {"source:unknown", "achievement:gladiator_warlords_season_3"}
+		flags = {"source:achievement", "achievement:gladiator_warlords_season_3", "pvp:gladiator", "season:warlords_3"}
 	},
 
 	[762] = {
@@ -7111,7 +7112,7 @@ local MountData = {
 		expansion = "Warlords of Draenor",
 		patch = "6.2.3",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:event", "event:feast_of_winter_veil"}
 	},
 
 	[772] = {
@@ -7123,7 +7124,7 @@ local MountData = {
 		patch = "6.2",
 		mountType = 424,
 		achievement = "Draenor Pathfinder",
-		flags = {"source:unknown", "achievement:draenor_pathfinder"}
+		flags = {"source:achievement", "achievement:draenor_pathfinder", "pathfinder:draenor"}
 	},
 
 	[773] = {
@@ -7136,7 +7137,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Legion Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_legion_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_legion_raider", "raid_meta:emerald_nightmare"}
 	},
 
 	[775] = {
@@ -7148,7 +7149,7 @@ local MountData = {
 		patch = "7.1",
 		mountType = 230,
 		achievement = "Free For All",
-		flags = {"source:unknown", "achievement:free_for_all_more_for_me"}
+		flags = {"source:achievement", "achievement:free_for_all_more_for_me", "pvp:battleground", "faction:alliance"}
 	},
 
 	[776] = {
@@ -7175,7 +7176,7 @@ local MountData = {
 		currency = "Timewarped Badge",
 		vendor = "Cupri",
 		zone = "Shattrath City",
-		flags = {"source:vendor", "vendor:cupri", "zone:shattrath_city", "cost:5000"}
+		flags = {"source:event", "event:timewalking", "vendor:cupri", "zone:shattrath_city", "cost:5000"}
 	},
 
 	[779] = {
@@ -7209,19 +7210,19 @@ local MountData = {
 		expansion = "Warlords of Draenor",
 		patch = "6.2.3",
 		mountType = 424,
-		flags = {"source:unknown", "status:retired"}
+		flags = {"source:event", "event:timewalking", "status:retired"}
 	},
 
 	[782] = {
 		mountID = 782,
 		name = "Ferocious Gladiator's Storm Dragon",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[783] = {
 		mountID = 783,
 		name = "Fierce Gladiator's Storm Dragon",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[784] = {
@@ -7382,7 +7383,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Underbelly Tycoon",
 		category = "Broken Isles",
-		flags = {"source:unknown", "achievement:underbelly_tycoon"}
+		flags = {"source:achievement", "achievement:underbelly_tycoon"}
 	},
 
 	[823] = {
@@ -7427,7 +7428,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Honor Level 15",
 		category = "Honor",
-		flags = {"source:unknown", "achievement:honor_level_15"}
+		flags = {"source:achievement", "achievement:honor_level_15", "source:pvp", "pvp:honor_level"}
 	},
 
 	[831] = {
@@ -7440,7 +7441,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Honor Level 150",
 		category = "Honor",
-		flags = {"source:unknown", "achievement:honor_level_150"}
+		flags = {"source:achievement", "achievement:honor_level_150", "source:pvp", "pvp:honor_level"}
 	},
 
 	[832] = {
@@ -7453,7 +7454,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Honor Level 125",
 		category = "Honor",
-		flags = {"source:unknown", "achievement:honor_level_125"}
+		flags = {"source:achievement", "achievement:honor_level_125", "source:pvp", "pvp:honor_level"}
 	},
 
 	[833] = {
@@ -7466,7 +7467,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Honor Level 40",
 		category = "Honor",
-		flags = {"source:unknown", "achievement:honor_level_40"}
+		flags = {"source:achievement", "achievement:honor_level_40", "source:pvp", "pvp:honor_level"}
 	},
 
 	[834] = {
@@ -7479,7 +7480,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Honor Level 70",
 		category = "Honor",
-		flags = {"source:unknown", "achievement:honor_level_70"}
+		flags = {"source:achievement", "achievement:honor_level_70", "source:pvp", "pvp:honor_level"}
 	},
 
 	[836] = {
@@ -7492,7 +7493,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Honor Level 250",
 		category = "Honor",
-		flags = {"source:unknown", "achievement:honor_level_250"}
+		flags = {"source:achievement", "achievement:honor_level_250", "source:pvp", "pvp:honor_level"}
 	},
 
 	[838] = {
@@ -7519,7 +7520,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[842] = {
@@ -7534,7 +7535,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[843] = {
@@ -7549,7 +7550,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[844] = {
@@ -7564,7 +7565,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[845] = {
@@ -7577,7 +7578,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Remember to Share",
 		category = "Toy Box",
-		flags = {"source:unknown", "achievement:remember_to_share"}
+		flags = {"source:achievement", "achievement:remember_to_share", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[846] = {
@@ -7590,7 +7591,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Legion Hero",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_legion_hero"}
+		flags = {"source:achievement", "achievement:glory_of_the_legion_hero", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[847] = {
@@ -7602,7 +7603,7 @@ local MountData = {
 		patch = "7.0.3",
 		mountType = 230,
 		vendor = "Xur'ios",
-		flags = {"source:vendor", "vendor:xurios"}
+		flags = {"source:vendor", "vendor:xurios", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[848] = {
@@ -7615,7 +7616,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Legion Season 1",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_legion_season_1"}
+		flags = {"source:achievement", "achievement:gladiator_legion_season_1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[849] = {
@@ -7628,7 +7629,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Legion Season 2",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_legion_season_2"}
+		flags = {"source:achievement", "achievement:gladiator_legion_season_2", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[850] = {
@@ -7641,7 +7642,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Legion Season 3",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_legion_season_3"}
+		flags = {"source:achievement", "achievement:gladiator_legion_season_3", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[851] = {
@@ -7654,7 +7655,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Legion Season 4",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_legion_season_4"}
+		flags = {"source:achievement", "achievement:gladiator_legion_season_4", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[852] = {
@@ -7667,7 +7668,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Legion Season 5",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "status:retired", "achievement:gladiator_legion_season_5"}
+		flags = {"source:achievement", "status:retired", "achievement:gladiator_legion_season_5", "pvp:gladiator", "season:legion_5", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[853] = {
@@ -7680,7 +7681,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Legion Season 6",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_legion_season_6"}
+		flags = {"source:achievement", "achievement:gladiator_legion_season_6", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[854] = {
@@ -7691,7 +7692,7 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.0.3",
 		mountType = 230,
-		flags = {"source:profession", "profession:leatherworking"}
+		flags = {"source:profession", "profession:leatherworking", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[855] = {
@@ -7704,7 +7705,7 @@ local MountData = {
 		mountType = 254,
 		vendor = "Galissa Sundew",
 		zone = "Darkmoon Island",
-		flags = {"source:vendor", "vendor:galissa_sundew", "zone:darkmoon_island"}
+		flags = {"source:vendor", "vendor:galissa_sundew", "zone:darkmoon_island", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[860] = {
@@ -7715,7 +7716,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:dispersion_of_the_discs"}
+		class = "Mage",
+		flags = {"source:class", "class:mage", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[861] = {
@@ -7726,7 +7728,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:the_sunken_vault"}
+		class = "Priest",
+		flags = {"source:class", "class:priest", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[864] = {
@@ -7737,7 +7740,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:the_trial_of_banlu"}
+		class = "Monk",
+		flags = {"source:class", "class:monk", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[865] = {
@@ -7748,7 +7752,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:night_of_the_wilds"}
+		class = "Hunter",
+		flags = {"source:class", "class:hunter", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[866] = {
@@ -7759,7 +7764,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:the_lost_glacier"}
+		class = "Death Knight",
+		flags = {"source:class", "class:death_knight", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[867] = {
@@ -7770,7 +7776,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:the_trial_of_rage"}
+		class = "Warrior",
+		flags = {"source:class", "class:warrior", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[868] = {
@@ -7781,7 +7788,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:to_fel_and_back"}
+		class = "Demon Hunter",
+		flags = {"source:class", "class:demon_hunter", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[870] = {
@@ -7792,9 +7800,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Hunter",
 		vendor = "Pan the Kind Hand",
 		zone = "trueshot Lodge",
-		flags = {"source:vendor", "vendor:pan_the_kind_hand", "zone:trueshot_lodge"}
+		flags = {"source:class", "class:hunter", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[872] = {
@@ -7805,9 +7814,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Hunter",
 		vendor = "Pan the Kind Hand",
 		zone = "trueshot Lodge",
-		flags = {"source:vendor", "vendor:pan_the_kind_hand", "zone:trueshot_lodge"}
+		flags = {"source:class", "class:hunter", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[873] = {
@@ -7822,7 +7832,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[874] = {
@@ -7836,7 +7846,7 @@ local MountData = {
 		cost = "1",
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
-		flags = {"vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[875] = {
@@ -7863,7 +7873,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[877] = {
@@ -7878,7 +7888,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Trinket",
 		zone = "Highmountain",
-		flags = {"source:vendor", "vendor:trinket", "zone:highmountain", "cost:10000", "currency:gold"}
+		flags = {"source:vendor", "vendor:trinket", "zone:highmountain", "cost:10000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[878] = {
@@ -7893,7 +7903,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Quackenbush",
 		zone = "Deeprun Tram",
-		flags = {"source:vendor", "vendor:quackenbush", "zone:deeprun_tram", "cost:4000", "currency:gold"}
+		flags = {"source:vendor", "vendor:quackenbush", "zone:deeprun_tram", "cost:4000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[881] = {
@@ -7905,7 +7915,7 @@ local MountData = {
 		patch = "7.1.5",
 		mountType = 424,
 		zone = "Suramar",
-		flags = {"source:quest", "zone:suramar", "quest:fate_of_the_nightborne"}
+		flags = {"source:quest", "zone:suramar", "quest:fate_of_the_nightborne", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[882] = {
@@ -7920,7 +7930,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[883] = {
@@ -7943,7 +7953,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:hiding_in_plain_sight"}
+		class = "Rogue",
+		flags = {"source:class", "class:rogue", "order_hall:legion"}
 	},
 
 	[885] = {
@@ -7954,7 +7965,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:stirring_in_the_shadows"}
+		class = "Paladin",
+		flags = {"source:class", "class:paladin", "order_hall:legion"}
 	},
 
 	[888] = {
@@ -7965,7 +7977,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:gathering_of_the_storms"}
+		class = "Shaman",
+		flags = {"source:class", "class:shaman", "order_hall:legion"}
 	},
 
 	[889] = {
@@ -7976,9 +7989,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Rogue",
 		vendor = "Zan Shivsproket",
 		zone = "Dalaran",
-		flags = {"source:vendor", "vendor:zan_shivsproket", "zone:dalaran"}
+		flags = {"source:class", "class:rogue", "order_hall:legion"}
 	},
 
 	[890] = {
@@ -7989,9 +8003,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Rogue",
 		vendor = "Zan Shivsproket",
 		zone = "Dalaran",
-		flags = {"source:vendor", "vendor:zan_shivsproket", "zone:dalaran"}
+		flags = {"source:class", "class:rogue", "order_hall:legion"}
 	},
 
 	[891] = {
@@ -8002,9 +8017,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Rogue",
 		vendor = "Zan Shivsproket",
 		zone = "Dalaran",
-		flags = {"source:vendor", "vendor:zan_shivsproket", "zone:dalaran"}
+		flags = {"source:class", "class:rogue", "order_hall:legion"}
 	},
 
 	[892] = {
@@ -8015,9 +8031,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Paladin",
 		vendor = "Crusader Lord Dalfors",
 		zone = "Sanctum of Light",
-		flags = {"source:vendor", "vendor:crusader_lord_dalfors", "zone:sanctum_of_light"}
+		flags = {"source:class", "class:paladin", "order_hall:legion"}
 	},
 
 	[893] = {
@@ -8028,9 +8045,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Paladin",
 		vendor = "Crusader Lord Dalfors",
 		zone = "Sanctum of Light",
-		flags = {"source:vendor", "vendor:crusader_lord_dalfors", "zone:sanctum_of_light"}
+		flags = {"source:class", "class:paladin", "order_hall:legion"}
 	},
 
 	[894] = {
@@ -8041,9 +8059,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Paladin",
 		vendor = "Crusader Lord Dalfors",
 		zone = "Sanctum of Light",
-		flags = {"source:vendor", "vendor:crusader_lord_dalfors", "zone:sanctum_of_light"}
+		flags = {"source:class", "class:paladin", "order_hall:legion"}
 	},
 
 	[896] = {
@@ -8065,7 +8084,8 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
-		flags = {"source:quest", "quest:the_wrathsteed_of_xoroth"}
+		class = "Warlock",
+		flags = {"source:class", "class:warlock", "order_hall:legion"}
 	},
 
 	[899] = {
@@ -8092,7 +8112,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[901] = {
@@ -8105,7 +8125,7 @@ local MountData = {
 		mountType = 230,
 		cost = "1",
 		vendor = "Deathguard Netharian",
-		flags = {"vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[905] = {
@@ -8117,7 +8137,7 @@ local MountData = {
 		patch = "7.2",
 		mountType = 424,
 		drop = "Nightfallen Cache",
-		flags = {"source:drop", "drop:nightfallen_cache", "boss:nightfallen_cache"}
+		flags = {"source:profession", "profession:tailoring", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[906] = {
@@ -8129,7 +8149,7 @@ local MountData = {
 		patch = "7.3",
 		mountType = 424,
 		drop = "Fel-Spotted Egg",
-		flags = {"source:drop", "status:retired", "drop:felspotted_egg", "boss:felspotted_egg"}
+		flags = {"source:drop", "status:retired", "drop:felspotted_egg", "boss:felspotted_egg", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[926] = {
@@ -8144,7 +8164,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Hoarder Jena",
 		zone = "Vol'dun",
-		flags = {"source:vendor", "vendor:hoarder_jena", "zone:voldun", "zone:voldunfaction_voldunai_exalted", "cost:10000", "currency:gold"}
+		flags = {"source:vendor", "vendor:hoarder_jena", "zone:voldun", "zone:voldunfaction_voldunai_exalted", "cost:10000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[928] = {
@@ -8156,7 +8176,7 @@ local MountData = {
 		patch = "8.0",
 		mountType = 230,
 		zone = "Vol'dun",
-		flags = {"source:unknown", "zone:voldun"}
+		flags = {"source:unknown", "zone:voldun", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[930] = {
@@ -8167,9 +8187,10 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Warlock",
 		vendor = "Calydus",
 		zone = "Dreadscar Rift",
-		flags = {"source:vendor", "vendor:calydus", "zone:dreadscar_rift"}
+		flags = {"source:class", "class:warlock", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[931] = {
@@ -8180,8 +8201,9 @@ local MountData = {
 		expansion = "Legion",
 		patch = "7.2",
 		mountType = 424,
+		class = "Warlock",
 		zone = "Broken Shore",
-		flags = {"source:drop", "zone:broken_shore", "drop:lord_helnurath", "boss:lord_helnurath"}
+		flags = {"source:class", "class:warlock", "order_hall:legion", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[932] = {
@@ -8196,7 +8218,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Vindicator Jaelaana",
 		zone = "Argus",
-		flags = {"source:vendor", "status:retired", "vendor:vindicator_jaelaana", "zone:argus", "zone:argusfaction_army_of_the_light_exalted", "cost:625000", "currency:gold"}
+		flags = {"source:vendor", "status:retired", "vendor:vindicator_jaelaana", "zone:argus", "zone:argusfaction_army_of_the_light_exalted", "cost:625000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[933] = {
@@ -8209,7 +8231,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Glory of the Wartorn Hero",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "status:retired", "achievement:glory_of_the_wartorn_hero"}
+		flags = {"source:achievement", "status:retired", "achievement:glory_of_the_wartorn_hero", "dungeon_meta:battle_for_azeroth", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[934] = {
@@ -8221,7 +8243,7 @@ local MountData = {
 		patch = "3.0",
 		mountType = 242,
 		legacy = "true",
-		flags = {"source:legacy", "status:retired", "legacy:true"}
+		flags = {"source:legacy", "status:retired", "legacy:true", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[935] = {
@@ -8232,7 +8254,7 @@ local MountData = {
 		expansion = "Wrath of the Lich King",
 		patch = "3.0",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[936] = {
@@ -8243,7 +8265,7 @@ local MountData = {
 		expansion = "Wrath of the Lich King",
 		patch = "3.0",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[937] = {
@@ -8255,13 +8277,13 @@ local MountData = {
 		patch = "7.3.5",
 		mountType = 230,
 		legacy = "true",
-		flags = {"source:legacy", "legacy:true"}
+		flags = {"source:legacy", "legacy:true", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[938] = {
 		mountID = 938,
 		name = "Notorious Gladiator's Proto-Drake",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[939] = {
@@ -8276,7 +8298,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Toraan the Revered",
 		zone = "Argus",
-		flags = {"source:vendor", "vendor:toraan_the_revered", "zone:argus", "zone:argusfaction_argussian_reach_exalted", "cost:10000", "currency:gold"}
+		flags = {"source:vendor", "vendor:toraan_the_revered", "zone:argus", "zone:argusfaction_argussian_reach_exalted", "cost:10000", "currency:gold", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[941] = {
@@ -8288,7 +8310,7 @@ local MountData = {
 		patch = "7.2",
 		mountType = 230,
 		drop = "Highmountain Supplies",
-		flags = {"source:drop", "drop:highmountain_supplies", "boss:highmountain_supplies"}
+		flags = {"source:drop", "drop:highmountain_supplies", "boss:highmountain_supplies", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[942] = {
@@ -8300,7 +8322,7 @@ local MountData = {
 		patch = "7.2",
 		mountType = 424,
 		drop = "Dreamweaver Cache",
-		flags = {"source:drop", "drop:dreamweaver_cache", "boss:dreamweaver_cache"}
+		flags = {"source:drop", "drop:dreamweaver_cache", "boss:dreamweaver_cache", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[943] = {
@@ -8312,7 +8334,7 @@ local MountData = {
 		patch = "7.2",
 		mountType = 424,
 		drop = "Farondis Chest",
-		flags = {"source:drop", "drop:farondis_chest", "boss:farondis_chest"}
+		flags = {"source:drop", "drop:farondis_chest", "boss:farondis_chest", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[944] = {
@@ -8324,7 +8346,7 @@ local MountData = {
 		patch = "7.2",
 		mountType = 424,
 		drop = "Valarjar Strongbox",
-		flags = {"source:drop", "drop:valarjar_strongbox", "boss:valarjar_strongbox"}
+		flags = {"source:drop", "drop:valarjar_strongbox", "boss:valarjar_strongbox", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[945] = {
@@ -8339,7 +8361,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[946] = {
@@ -8353,7 +8375,7 @@ local MountData = {
 		cost = "1",
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
-		flags = {"vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[947] = {
@@ -8378,7 +8400,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Legion Season 7",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_legion_season_7"}
+		flags = {"source:achievement", "achievement:gladiator_legion_season_7", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[949] = {
@@ -8502,7 +8524,7 @@ local MountData = {
 		currency = "Darkmoon Prize Ticket",
 		vendor = "Lhara",
 		zone = "Darkmoon Island",
-		flags = {"source:vendor", "vendor:lhara", "zone:darkmoon_island", "cost:1000"}
+		flags = {"source:event", "event:darkmoon_faire", "vendor:lhara", "zone:darkmoon_island", "cost:1000"}
 	},
 
 	[963] = {
@@ -8515,7 +8537,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Glory of the Uldir Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_uldir_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_uldir_raider", "raid_meta:uldir"}
 	},
 
 	[964] = {
@@ -8627,7 +8649,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Argus Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_argus_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_argus_raider", "raid_meta:antorus"}
 	},
 
 	[973] = {
@@ -8854,7 +8876,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:expansion_feature", "expansion_feature:plunderstorm"}
 	},
 
 	[995] = {
@@ -8911,7 +8933,7 @@ local MountData = {
 		patch = "7.3.5",
 		mountType = 230,
 		achievement = "Allied Races: Lightforged Draenei",
-		flags = {"source:unknown", "achievement:allied_races_lightforged_draenei"}
+		flags = {"source:achievement", "achievement:allied_races_lightforged_draenei", "faction:alliance"}
 	},
 
 	[1007] = {
@@ -8923,7 +8945,7 @@ local MountData = {
 		patch = "7.3.5",
 		mountType = 230,
 		achievement = "Allied Races: Highmountain Tauren",
-		flags = {"source:unknown", "achievement:allied_races_highmountain_tauren"}
+		flags = {"source:achievement", "achievement:allied_races_highmountain_tauren", "faction:horde"}
 	},
 
 	[1008] = {
@@ -8935,7 +8957,7 @@ local MountData = {
 		patch = "7.3.5",
 		mountType = 230,
 		achievement = "Allied Races: Nightborne",
-		flags = {"source:unknown", "achievement:allied_races_nightborne"}
+		flags = {"source:achievement", "achievement:allied_races_nightborne", "faction:horde"}
 	},
 
 	[1009] = {
@@ -8947,7 +8969,7 @@ local MountData = {
 		patch = "7.3.5",
 		mountType = 230,
 		achievement = "Allied Races: Void Elf",
-		flags = {"source:vendor", "achievement:allied_races_void_elf"}
+		flags = {"source:vendor", "achievement:allied_races_void_elf", "faction:alliance"}
 	},
 
 	[1010] = {
@@ -9082,7 +9104,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Deathguard Netharian",
 		zone = "Orgrimmar",
-		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1"}
+		flags = {"source:vendor", "vendor:deathguard_netharian", "zone:orgrimmar", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[1027] = {
@@ -9119,7 +9141,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Battle for Azeroth Season 1",
 		category = "Player vs. Player",
-		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_1"}
+		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_1", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1031] = {
@@ -9132,7 +9154,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Battle for Azeroth Season 2",
 		category = "Player vs. Player",
-		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_2"}
+		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_2", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1032] = {
@@ -9145,7 +9167,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Battle for Azeroth Season 3",
 		category = "Player vs. Player",
-		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_3"}
+		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_3", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1035] = {
@@ -9158,7 +9180,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Battle for Azeroth Season 4",
 		category = "Player vs. Player",
-		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_4"}
+		flags = {"source:achievement", "achievement:gladiator_battle_for_azeroth_season_4", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1038] = {
@@ -9170,7 +9192,7 @@ local MountData = {
 		patch = "8.1.5",
 		mountType = 230,
 		achievement = "Allied Races: Zandalari Troll",
-		flags = {"source:unknown", "achievement:allied_races_zandalari_troll"}
+		flags = {"source:achievement", "achievement:allied_races_zandalari_troll", "faction:horde"}
 	},
 
 	[1039] = {
@@ -9185,7 +9207,7 @@ local MountData = {
 		currency = "Gold",
 		vendor = "Talutu",
 		zone = "Zuldazar",
-		flags = {"source:vendor", "vendor:talutu", "zone:zuldazar", "cost:5000000", "currency:gold"}
+		flags = {"source:bmah", "status:retired", "vendor:talutu", "zone:zuldazar", "cost:5000000", "currency:gold"}
 	},
 
 	[1040] = {
@@ -9236,7 +9258,7 @@ local MountData = {
 		patch = "8.0",
 		mountType = 230,
 		achievement = "Allied Races: Mag'har Orc",
-		flags = {"source:vendor", "achievement:allied_races_maghar_orc"}
+		flags = {"source:vendor", "achievement:allied_races_maghar_orc", "faction:horde"}
 	},
 
 	[1045] = {
@@ -9287,7 +9309,7 @@ local MountData = {
 		patch = "8.0",
 		mountType = 230,
 		achievement = "Allied Races: Dark Iron Dwarf",
-		flags = {"source:unknown", "achievement:allied_races_dark_iron_dwarf"}
+		flags = {"source:achievement", "achievement:allied_races_dark_iron_dwarf", "faction:alliance"}
 	},
 
 	[1049] = {
@@ -9507,7 +9529,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "No Stable Big Enough",
 		category = "Mounts",
-		flags = {"source:unknown", "achievement:no_stable_big_enough"}
+		flags = {"source:achievement", "achievement:no_stable_big_enough", "mount_collection:350"}
 	},
 
 	[1168] = {
@@ -9543,7 +9565,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Conqueror of Azeroth",
 		category = "World",
-		flags = {"source:unknown", "achievement:conqueror_of_azeroth"}
+		flags = {"source:achievement", "achievement:conqueror_of_azeroth"}
 	},
 
 	[1173] = {
@@ -9579,7 +9601,7 @@ local MountData = {
 		patch = "8.0",
 		mountType = 424,
 		drop = "Island Expeditions",
-		flags = {"source:drop", "drop:island_expeditions", "boss:island_expeditions"}
+		flags = {"source:expansion_feature", "expansion_feature:island_expeditions", "drop:island_expeditions"}
 	},
 
 	[1176] = {
@@ -9679,7 +9701,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "100 Exalted Reputations",
 		category = "Reputation",
-		flags = {"source:unknown", "achievement:100_exalted_reputations"}
+		flags = {"source:achievement", "achievement:100_exalted_reputations"}
 	},
 
 	[1191] = {
@@ -9691,7 +9713,7 @@ local MountData = {
 		patch = "8.0",
 		mountType = 230,
 		category = "Mounts",
-		flags = {"source:unknown", "achievement:a_horde_of_hoofbeats"}
+		flags = {"source:achievement", "achievement:a_horde_of_hoofbeats", "mount_collection:400"}
 	},
 
 	[1192] = {
@@ -9704,7 +9726,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Honor Level 500",
 		category = "Honor",
-		flags = {"source:unknown", "achievement:honor_level_500"}
+		flags = {"source:achievement", "achievement:honor_level_500", "source:pvp", "pvp:honor_level"}
 	},
 
 	[1193] = {
@@ -9745,7 +9767,7 @@ local MountData = {
 		currency = "Vicious Saddle",
 		vendor = "Necrolord Sipe",
 		zone = "Stormwind City",
-		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1"}
+		flags = {"source:vendor", "vendor:necrolord_sipe", "zone:stormwind_city", "cost:1", "source:pvp", "currency:vicious_saddle", "pvp:vicious_saddle"}
 	},
 
 	[1196] = {
@@ -9787,7 +9809,7 @@ local MountData = {
 		patch = "8.1.5",
 		mountType = 230,
 		achievement = "Allied Races: Kul Tiran Human",
-		flags = {"source:class", "achievement:allied_races_kul_tiran_human"}
+		flags = {"source:class", "achievement:allied_races_kul_tiran_human", "faction:alliance"}
 	},
 
 	[1199] = {
@@ -9856,7 +9878,7 @@ local MountData = {
 		currency = "7th Legion Service Medal",
 		vendor = "Provisioner Stoutforge",
 		zone = "Tiragarde Sound",
-		flags = {"source:vendor", "vendor:provisioner_stoutforge", "zone:tiragarde_sound", "cost:350"}
+		flags = {"source:expansion_feature", "expansion_feature:service_medals", "vendor:provisioner_stoutforge", "zone:tiragarde_sound", "cost:350"}
 	},
 
 	[1205] = {
@@ -10046,7 +10068,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Dazar'alor Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_dazaralor_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_dazaralor_raider"}
 	},
 
 	[1219] = {
@@ -10118,7 +10140,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Battle for Azeroth Pathfinder",
 		category = "Battle for Azeroth",
-		flags = {"source:unknown", "achievement:battle_for_azeroth_pathfinder_part_two"}
+		flags = {"source:achievement", "achievement:battle_for_azeroth_pathfinder_part_two"}
 	},
 
 	[1225] = {
@@ -10130,7 +10152,7 @@ local MountData = {
 		patch = "8.1.5",
 		mountType = 230,
 		class = "Paladin",
-		flags = {"source:unknown", "status:retired"}
+		flags = {"source:class", "class:paladin", "status:retired"}
 	},
 
 	[1227] = {
@@ -10197,7 +10219,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Eternal Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_eternal_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_eternal_raider"}
 	},
 
 	[1237] = {
@@ -10222,7 +10244,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Undersea Usurper",
 		category = "Battle for Azeroth",
-		flags = {"source:unknown", "status:retired", "achievement:undersea_usurper"}
+		flags = {"source:achievement", "status:retired", "achievement:undersea_usurper", "pvp:nazjatar"}
 	},
 
 	[1239] = {
@@ -10248,7 +10270,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Memories of Fel",
 		category = "Events",
-		flags = {"source:unknown", "achievement:memories_of_fel_frost_and_fire"}
+		flags = {"source:bmah", "status:retired", "achievement:memories_of_fel_frost_and_fire"}
 	},
 
 	[1242] = {
@@ -10302,7 +10324,7 @@ local MountData = {
 		patch = "8.1.5",
 		mountType = 230,
 		achievement = "Two Sides to Every Tale",
-		flags = {"source:unknown", "achievement:two_sides_to_every_tale"}
+		flags = {"source:achievement", "achievement:two_sides_to_every_tale"}
 	},
 
 	[1247] = {
@@ -10315,7 +10337,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Mecha-Done",
 		category = "Battle for Azeroth",
-		flags = {"source:unknown", "achievement:mechadone"}
+		flags = {"source:achievement", "achievement:mechadone"}
 	},
 
 	[1248] = {
@@ -10449,7 +10471,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.7",
 		mountType = 254,
-		flags = {"source:unknown"}
+		flags = {"source:expansion_feature", "expansion_feature:plunderstorm"}
 	},
 
 	[1260] = {
@@ -10577,7 +10599,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "I'm On Island Time",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:im_on_island_time"}
+		flags = {"source:achievement", "achievement:im_on_island_time"}
 	},
 
 	[1282] = {
@@ -10589,7 +10611,7 @@ local MountData = {
 		patch = "8.3",
 		mountType = 424,
 		achievement = "Through the Depths of Visions",
-		flags = {"source:unknown", "achievement:through_the_depths_of_visions"}
+		flags = {"source:achievement", "achievement:through_the_depths_of_visions"}
 	},
 
 	[1283] = {
@@ -10626,7 +10648,7 @@ local MountData = {
 		patch = "8.3",
 		mountType = 230,
 		achievement = "Allied Races: Vulpera",
-		flags = {"source:unknown", "achievement:allied_races_vulpera"}
+		flags = {"source:achievement", "achievement:allied_races_vulpera", "faction:horde"}
 	},
 
 	[1287] = {
@@ -10698,7 +10720,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Alterac Valley of Olde",
 		category = "Alterac Valley",
-		flags = {"source:vendor", "achievement:alterac_valley_of_olde"}
+		flags = {"source:vendor", "achievement:alterac_valley_of_olde", "source:pvp", "pvp:achievement", "faction:alliance"}
 	},
 
 	[1293] = {
@@ -10716,7 +10738,7 @@ local MountData = {
 	[1295] = {
 		mountID = 1295,
 		name = "Cosmic Gladiator's Soul Eater",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1297] = {
@@ -10975,7 +10997,7 @@ local MountData = {
 		currency = "Corrupted Mementos",
 		vendor = "Wrathion",
 		zone = "Chamber of Heart",
-		flags = {"source:vendor", "vendor:wrathion", "zone:chamber_of_heart", "cost:100000"}
+		flags = {"source:expansion_feature", "expansion_feature:horrific_visions", "vendor:wrathion", "zone:chamber_of_heart", "cost:100000"}
 	},
 
 	[1322] = {
@@ -10988,7 +11010,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Ny'alotha Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_nyalotha_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_nyalotha_raider"}
 	},
 
 	[1324] = {
@@ -11013,7 +11035,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Battle for Azeroth Keystone Master: Season Four",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:battle_for_azeroth_keystone_master_season_four"}
+		flags = {"source:achievement", "achievement:battle_for_azeroth_keystone_master_season_four"}
 	},
 
 	[1327] = {
@@ -11130,7 +11152,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"pvp:shadowlands_season_1rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:shadowlands_season_1rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1354] = {
@@ -11254,7 +11276,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Sinful Gladiator: Shadowlands Season 1",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:sinful_gladiator_shadowlands_season_1"}
+		flags = {"source:achievement", "achievement:sinful_gladiator_shadowlands_season_1", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1364] = {
@@ -11303,7 +11325,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "The Gang's All Here",
 		category = "Covenant Sanctums",
-		flags = {"source:unknown", "achievement:the_gangs_all_here"}
+		flags = {"source:achievement", "achievement:the_gangs_all_here"}
 	},
 
 	[1368] = {
@@ -11355,7 +11377,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Things To Do When You're Dead",
 		category = "Covenant Sanctums",
-		flags = {"source:unknown", "achievement:things_to_do_when_youre_dead"}
+		flags = {"source:achievement", "achievement:things_to_do_when_youre_dead"}
 	},
 
 	[1372] = {
@@ -11536,7 +11558,7 @@ local MountData = {
 		expansion = "Shadowlands",
 		patch = "9.0",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:expansion_feature", "expansion_feature:shadowlands_covenant_features"}
 	},
 
 	[1393] = {
@@ -11681,7 +11703,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Shadowlands Keystone Master: Season Four",
 		category = "Dungeons",
-		flags = {"source:unknown", "status:retired", "achievement:shadowlands_keystone_master_season_four"}
+		flags = {"source:achievement", "status:retired", "achievement:shadowlands_keystone_master_season_four", "mythic_plus:shadowlands_4"}
 	},
 
 	[1406] = {
@@ -11811,7 +11833,7 @@ local MountData = {
 		patch = "9.1",
 		mountType = 230,
 		zone = "Sanctum of Domination",
-		flags = {"source:unknown", "zone:sanctum_of_domination", "achievement:glory_of_the_dominant_raider"}
+		flags = {"source:achievement", "zone:sanctum_of_domination", "achievement:glory_of_the_dominant_raider", "raid_meta:sanctum_of_domination"}
 	},
 
 	[1419] = {
@@ -11824,7 +11846,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Shadowlands Keystone Master: Season One",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:shadowlands_keystone_master_season_one"}
+		flags = {"source:achievement", "achievement:shadowlands_keystone_master_season_one"}
 	},
 
 	[1420] = {
@@ -12071,7 +12093,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Twisting Corridors: Layer 8",
 		category = "Torghast",
-		flags = {"source:unknown", "achievement:twisting_corridors_layer_8"}
+		flags = {"source:achievement", "achievement:twisting_corridors_layer_8"}
 	},
 
 	[1443] = {
@@ -12084,7 +12106,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Glory of the Shadowlands Hero",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_shadowlands_hero"}
+		flags = {"source:achievement", "achievement:glory_of_the_shadowlands_hero"}
 	},
 
 	[1444] = {
@@ -12120,7 +12142,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Fake It 'Til You Make It",
 		category = "Shadowlands Dungeon",
-		flags = {"source:unknown", "achievement:fake_it_til_you_make_it"}
+		flags = {"source:achievement", "achievement:fake_it_til_you_make_it"}
 	},
 
 	[1448] = {
@@ -12182,7 +12204,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"pvp:shadowlands_season_3rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:shadowlands_season_3rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1454] = {
@@ -12194,7 +12216,7 @@ local MountData = {
 		patch = "9.1",
 		mountType = 230,
 		zone = "Korthia",
-		flags = {"source:drop", "zone:korthia", "drop:supplies_of_the_archivists_codex", "boss:supplies_of_the_archivists_codex"}
+		flags = {"source:drop", "zone:korthia", "drop:supplies_of_the_archivists_codex", "boss:supplies_of_the_archivists_codex", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1455] = {
@@ -12206,7 +12228,7 @@ local MountData = {
 		patch = "9.1",
 		mountType = 230,
 		zone = "Korthia",
-		flags = {"source:drop", "zone:korthia", "drop:deaths_advance_supplies", "boss:deaths_advance_supplies"}
+		flags = {"source:drop", "zone:korthia", "drop:deaths_advance_supplies", "boss:deaths_advance_supplies", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1456] = {
@@ -12217,7 +12239,7 @@ local MountData = {
 		expansion = "Shadowlands",
 		patch = "9.1",
 		mountType = 424,
-		flags = {"source:unknown", "status:retired"}
+		flags = {"source:unknown", "status:retired", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1458] = {
@@ -12228,7 +12250,7 @@ local MountData = {
 		expansion = "Shadowlands",
 		patch = "9.0.5",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1459] = {
@@ -12240,7 +12262,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"source:unknown", "pvp:shadowlands_season_2rated_arena_and_rated_battleground_season_reward"}
+		flags = {"source:unknown", "pvp:shadowlands_season_2rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1460] = {
@@ -12252,13 +12274,13 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"source:retired", "status:retired", "pvp:shadowlands_season_2rated_arena_and_rated_battleground_season_reward"}
+		flags = {"source:retired", "status:retired", "pvp:shadowlands_season_2rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1461] = {
 		mountID = 1461,
 		name = "Crimson Gladiator's Drake",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1465] = {
@@ -12282,7 +12304,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"pvp:shadowlands_season_4rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:shadowlands_season_4rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1467] = {
@@ -12347,7 +12369,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Centaur of Attention",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:centaur_of_attention"}
+		flags = {"source:achievement", "achievement:centaur_of_attention"}
 	},
 
 	[1475] = {
@@ -12410,7 +12432,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Shadowlands Season 2",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_shadowlands_season_2"}
+		flags = {"source:achievement", "achievement:gladiator_shadowlands_season_2", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1481] = {
@@ -12689,7 +12711,7 @@ local MountData = {
 		patch = "9.1",
 		mountType = 230,
 		zone = "Korthia and The Maw",
-		flags = {"source:unknown", "zone:korthia_and_the_maw", "achievement:breaking_the_chains"}
+		flags = {"source:achievement", "zone:korthia_and_the_maw", "achievement:breaking_the_chains", "quest_story:korthia"}
 	},
 
 	[1505] = {
@@ -12823,7 +12845,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Shadowlands Keystone Master: Season Two",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:shadowlands_keystone_master_season_two"}
+		flags = {"source:achievement", "achievement:shadowlands_keystone_master_season_two"}
 	},
 
 	[1521] = {
@@ -12948,7 +12970,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "A Tour of Towers",
 		category = "Timewalking",
-		flags = {"source:unknown", "achievement:a_tour_of_towers"}
+		flags = {"source:achievement", "achievement:a_tour_of_towers"}
 	},
 
 	[1533] = {
@@ -13082,7 +13104,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Shadowlands Keystone Master: Season Three",
 		category = "Dungeons",
-		flags = {"source:unknown", "status:retired", "achievement:shadowlands_keystone_master_season_three"}
+		flags = {"source:achievement", "status:retired", "achievement:shadowlands_keystone_master_season_three", "mythic_plus:shadowlands_3"}
 	},
 
 	[1545] = {
@@ -13133,7 +13155,7 @@ local MountData = {
 		mountType = 436,
 		achievement = "Glory of the Sepulcher Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_sepulcher_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_sepulcher_raider"}
 	},
 
 	[1550] = {
@@ -13159,7 +13181,7 @@ local MountData = {
 		mountType = 436,
 		achievement = "From A to Zereth",
 		category = "Shadowlands",
-		flags = {"source:unknown", "achievement:from_a_to_zereth"}
+		flags = {"source:achievement", "achievement:from_a_to_zereth"}
 	},
 
 	[1552] = {
@@ -13224,7 +13246,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Flawless Master (Layer 16)",
 		category = "Torghast",
-		flags = {"source:unknown", "achievement:flawless_master_layer_16"}
+		flags = {"source:achievement", "achievement:flawless_master_layer_16"}
 	},
 
 	[1565] = {
@@ -13249,7 +13271,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "The Jailer's Gauntlet: Layer 4",
 		category = "Torghast",
-		flags = {"source:unknown", "achievement:the_jailers_gauntlet_layer_4"}
+		flags = {"source:achievement", "achievement:the_jailers_gauntlet_layer_4"}
 	},
 
 	[1567] = {
@@ -13317,7 +13339,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Shadowlands Season 3",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_shadowlands_season_3"}
+		flags = {"source:achievement", "achievement:gladiator_shadowlands_season_3", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1573] = {
@@ -13368,7 +13390,7 @@ local MountData = {
 		patch = "10.2.6",
 		mountType = 230,
 		achievement = "Fates of the Shadowlands Raids",
-		flags = {"source:unknown", "achievement:fates_of_the_shadowlands_raids"}
+		flags = {"source:achievement", "achievement:fates_of_the_shadowlands_raids"}
 	},
 
 	[1577] = {
@@ -13620,7 +13642,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Shadowlands Season 4",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_shadowlands_season_4"}
+		flags = {"source:achievement", "achievement:gladiator_shadowlands_season_4", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1600] = {
@@ -13670,7 +13692,7 @@ local MountData = {
 		patch = "None",
 		mountType = 402,
 		achievement = "Dragon Isles Drake",
-		flags = {"source:unknown", "achievement:dragon_isles_drake"}
+		flags = {"source:achievement", "achievement:dragon_isles_drake"}
 	},
 
 	[1607] = {
@@ -13718,7 +13740,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Across the Isles",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:across_the_isles"}
+		flags = {"source:achievement", "achievement:across_the_isles"}
 	},
 
 	[1615] = {
@@ -13770,7 +13792,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Closing Time",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:closing_time"}
+		flags = {"source:achievement", "achievement:closing_time"}
 	},
 
 	[1619] = {
@@ -13795,7 +13817,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Into the Storm",
 		category = "Exploration",
-		flags = {"source:unknown", "status:retired", "achievement:into_the_storm"}
+		flags = {"source:achievement", "status:retired", "achievement:into_the_storm", "pvp:storm_fury"}
 	},
 
 	[1622] = {
@@ -13833,7 +13855,7 @@ local MountData = {
 		patch = "10.0.2",
 		mountType = 230,
 		achievement = "Glory of the Dragonflight Hero",
-		flags = {"source:unknown", "achievement:glory_of_the_dragonflight_hero"}
+		flags = {"source:achievement", "achievement:glory_of_the_dragonflight_hero"}
 	},
 
 	[1627] = {
@@ -13873,7 +13895,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Army of the Fed",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:army_of_the_fed"}
+		flags = {"source:achievement", "achievement:army_of_the_fed"}
 	},
 
 	[1634] = {
@@ -13896,13 +13918,13 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.0.2",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:expansion_feature", "expansion_feature:dragon_isles_grand_hunts"}
 	},
 
 	[1637] = {
 		mountID = 1637,
 		name = "Verdant Gladiator's Slitherdrake",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1638] = {
@@ -13917,7 +13939,7 @@ local MountData = {
 		currency = "Mysterious Fragment",
 		vendor = "Provisioner Aristta",
 		zone = "Thaldraszus",
-		flags = {"source:vendor", "vendor:provisioner_aristta", "zone:thaldraszus", "cost:20000"}
+		flags = {"source:expansion_feature", "expansion_feature:azerothian_archives", "vendor:provisioner_aristta", "zone:thaldraszus", "cost:20000"}
 	},
 
 	[1639] = {
@@ -13942,7 +13964,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Glory of the Vault Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_vault_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_vault_raider"}
 	},
 
 	[1645] = {
@@ -13967,7 +13989,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Flight Club",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:flight_club"}
+		flags = {"source:achievement", "achievement:flight_club"}
 	},
 
 	[1653] = {
@@ -13995,7 +14017,7 @@ local MountData = {
 		mountType = 407,
 		achievement = "Thanks for the Carry!",
 		category = "Mounts",
-		flags = {"source:unknown", "achievement:thanks_for_the_carry"}
+		flags = {"source:achievement", "achievement:thanks_for_the_carry", "mount_collection:500"}
 	},
 
 	[1655] = {
@@ -14079,7 +14101,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Dragonflight Season 1",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_dragonflight_season_1"}
+		flags = {"source:achievement", "achievement:gladiator_dragonflight_season_1", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1662] = {
@@ -14163,7 +14185,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Wake Me Up",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:wake_me_up"}
+		flags = {"source:achievement", "achievement:wake_me_up"}
 	},
 
 	[1671] = {
@@ -14227,7 +14249,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Dragonflight Keystone Master: Season One",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:dragonflight_keystone_master_season_one"}
+		flags = {"source:achievement", "achievement:dragonflight_keystone_master_season_one"}
 	},
 
 	[1683] = {
@@ -14311,7 +14333,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"pvp:dragonflight_season_1rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:dragonflight_season_1rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1690] = {
@@ -14339,7 +14361,7 @@ local MountData = {
 	[1693] = {
 		mountID = 1693,
 		name = "Draconic Gladiator's Drake",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1694] = {
@@ -14381,7 +14403,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Dragonflight Keystone Master: Season Two",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:dragonflight_keystone_master_season_two"}
+		flags = {"source:achievement", "achievement:dragonflight_keystone_master_season_two"}
 	},
 
 	[1727] = {
@@ -14444,7 +14466,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Que Zara(lek)",
 		category = "Quests",
-		flags = {"source:unknown", "status:retired", "achievement:que_zaralek_zaralek"}
+		flags = {"source:achievement", "status:retired", "achievement:que_zaralek_zaralek", "quest_story:zaralek_cavern"}
 	},
 
 	[1734] = {
@@ -14456,7 +14478,7 @@ local MountData = {
 		patch = "10.1",
 		mountType = 424,
 		achievement = "Glory of the Aberrus Raider",
-		flags = {"source:unknown", "status:retired", "achievement:glory_of_the_aberrus_raider"}
+		flags = {"source:achievement", "status:retired", "achievement:glory_of_the_aberrus_raider", "raid_meta:aberrus"}
 	},
 
 	[1735] = {
@@ -14468,7 +14490,7 @@ local MountData = {
 		patch = "10.1",
 		mountType = 424,
 		zone = "Zaralek Cavern",
-		flags = {"source:unknown", "zone:zaralek_cavernpublic_event_researchers_under_fire"}
+		flags = {"source:expansion_feature", "expansion_feature:researchers_under_fire", "zone:zaralek_cavern"}
 	},
 
 	[1736] = {
@@ -14525,7 +14547,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Dragonflight Season 2",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_dragonflight_season_2"}
+		flags = {"source:achievement", "achievement:gladiator_dragonflight_season_2", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1740] = {
@@ -14549,7 +14571,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"source:retired", "status:retired", "pvp:dragonflight_season_2rated_arena_and_rated_battleground_season_reward"}
+		flags = {"source:retired", "status:retired", "pvp:dragonflight_season_2rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1742] = {
@@ -14580,7 +14602,7 @@ local MountData = {
 	[1750] = {
 		mountID = 1750,
 		name = "Forged Gladiator's Fel Bat",
-		flags = {"source:retired", "status:retired"}
+		flags = {"source:retired", "status:retired", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1771] = {
@@ -14835,7 +14857,7 @@ local MountData = {
 		patch = "10.1.7",
 		mountType = 230,
 		achievement = "Whodunnit?",
-		flags = {"source:unknown", "achievement:whodunnitevent_secrets_of_azeroth"}
+		flags = {"source:achievement", "achievement:whodunnitevent_secrets_of_azeroth"}
 	},
 
 	[1795] = {
@@ -14906,7 +14928,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Dragonflight Keystone Master: Season Three",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:dragonflight_keystone_master_season_three"}
+		flags = {"source:achievement", "achievement:dragonflight_keystone_master_season_three"}
 	},
 
 	[1808] = {
@@ -15003,7 +15025,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Glory of the Dream Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_dream_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_dream_raider"}
 	},
 
 	[1815] = {
@@ -15081,7 +15103,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"source:retired", "status:retired", "pvp:dragonflight_season_3rated_arena_and_rated_battleground_season_reward"}
+		flags = {"source:retired", "status:retired", "pvp:dragonflight_season_3rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[1821] = {
@@ -15100,7 +15122,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Dragonflight Season 4",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "status:retired", "achievement:gladiator_dragonflight_season_4"}
+		flags = {"source:achievement", "status:retired", "achievement:gladiator_dragonflight_season_4", "pvp:gladiator", "season:dragonflight_4"}
 	},
 
 	[1823] = {
@@ -15132,7 +15154,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "A World Awoken",
 		category = "Expansion Features",
-		flags = {"source:unknown", "achievement:a_world_awoken"}
+		flags = {"source:achievement", "achievement:a_world_awoken"}
 	},
 
 	[1830] = {
@@ -15157,7 +15179,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: Dragonflight Season 3",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_dragonflight_season_3"}
+		flags = {"source:achievement", "achievement:gladiator_dragonflight_season_3", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[1833] = {
@@ -15350,7 +15372,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:bmah", "bmah:exclusive"}
 	},
 
 	[1947] = {
@@ -15480,7 +15502,7 @@ local MountData = {
 		currency = "Noblegarden Chocolate",
 		drop = "Daetan Swiftplume",
 		holiday = "Noblegarden",
-		flags = {"source:drop", "drop:daetan_swiftplume", "boss:daetan_swiftplume", "holiday:noblegarden"}
+		flags = {"source:profession", "profession:tailoring", "holiday:noblegarden"}
 	},
 
 	[2035] = {
@@ -15518,7 +15540,7 @@ local MountData = {
 		patch = "10.2.5",
 		mountType = 230,
 		drop = "Azerothian Archives",
-		flags = {"source:drop", "drop:azerothian_archives", "boss:azerothian_archives"}
+		flags = {"source:expansion_feature", "expansion_feature:azerothian_archives", "drop:azerothian_archives"}
 	},
 
 	[2039] = {
@@ -15544,7 +15566,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "Dragonflight Keystone Master: Season Four",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:dragonflight_keystone_master_season_four"}
+		flags = {"source:achievement", "achievement:dragonflight_keystone_master_season_four"}
 	},
 
 	[2056] = {
@@ -15568,7 +15590,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"pvp:dragonflight_season_4rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:dragonflight_season_4rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2060] = {
@@ -15579,7 +15601,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 437,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2063] = {
@@ -15590,7 +15612,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 437,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2064] = {
@@ -15601,7 +15623,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 437,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2065] = {
@@ -15612,7 +15634,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2067] = {
@@ -15623,7 +15645,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2068] = {
@@ -15634,7 +15656,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2069] = {
@@ -15645,7 +15667,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2070] = {
@@ -15656,7 +15678,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2071] = {
@@ -15667,7 +15689,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2072] = {
@@ -15678,7 +15700,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2073] = {
@@ -15689,7 +15711,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2074] = {
@@ -15700,7 +15722,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2075] = {
@@ -15711,7 +15733,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2076] = {
@@ -15722,7 +15744,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2077] = {
@@ -15733,7 +15755,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2078] = {
@@ -15744,7 +15766,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2080] = {
@@ -15755,7 +15777,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2081] = {
@@ -15766,7 +15788,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2083] = {
@@ -15777,7 +15799,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2084] = {
@@ -15788,7 +15810,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2085] = {
@@ -15799,7 +15821,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2086] = {
@@ -15810,7 +15832,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2087] = {
@@ -15821,7 +15843,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2088] = {
@@ -15832,7 +15854,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2089] = {
@@ -15843,7 +15865,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2090] = {
@@ -15854,7 +15876,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.7",
 		mountType = 402,
-		flags = {"source:unknown"}
+		flags = {"source:expansion_feature", "expansion_feature:plunderstorm", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2091] = {
@@ -15866,7 +15888,7 @@ local MountData = {
 		patch = "10.2.6",
 		mountType = 445,
 		achievement = "Awakening the Dragonflight Raids",
-		flags = {"source:unknown", "achievement:awakening_the_dragonflight_raids"}
+		flags = {"source:achievement", "achievement:awakening_the_dragonflight_raids", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2114] = {
@@ -15879,7 +15901,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Back from the Beyond",
 		category = "Expansion Features",
-		flags = {"source:unknown", "achievement:back_from_the_beyond"}
+		flags = {"source:achievement", "achievement:back_from_the_beyond", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2115] = {
@@ -15903,7 +15925,7 @@ local MountData = {
 		currency = "Item_211409",
 		vendor = "Remembrancer Amuul",
 		zone = "Dalaran",
-		flags = {"source:vendor", "vendor:remembrancer_amuul", "zone:dalaran", "cost:25"}
+		flags = {"source:vendor", "vendor:remembrancer_amuul", "zone:dalaran", "cost:25", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2117] = {
@@ -15918,7 +15940,7 @@ local MountData = {
 		currency = "Item_211409",
 		vendor = "Remembrancer Amuul",
 		zone = "Dalaran",
-		flags = {"source:vendor", "vendor:remembrancer_amuul", "zone:dalaran", "cost:25"}
+		flags = {"source:vendor", "vendor:remembrancer_amuul", "zone:dalaran", "cost:25", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2118] = {
@@ -15929,7 +15951,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2119] = {
@@ -15941,7 +15963,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 424,
 		zone = "The Ringing Deeps",
-		flags = {"source:quest", "zone:the_ringing_deeps", "quest:repurposed_restored"}
+		flags = {"source:quest", "zone:the_ringing_deeps", "quest:repurposed_restored", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2140] = {
@@ -15953,7 +15975,7 @@ local MountData = {
 		patch = "10.2.7",
 		mountType = 444,
 		source = "In-Game Shop",
-		flags = {"source:in-game_shop"}
+		flags = {"source:in-game_shop", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2142] = {
@@ -15964,7 +15986,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2143] = {
@@ -15975,7 +15997,7 @@ local MountData = {
 		expansion = "Dragonflight",
 		patch = "10.2.7",
 		mountType = 424,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2144] = {
@@ -15987,7 +16009,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 402,
 		zone = "Isle of Dorn",
-		flags = {"source:quest", "zone:isle_of_dorn", "quest:ship_it"}
+		flags = {"source:quest", "zone:isle_of_dorn", "quest:ship_it", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2145] = {
@@ -15999,7 +16021,7 @@ local MountData = {
 		patch = "11.1.5",
 		mountType = 437,
 		source = "In-Game Shop",
-		flags = {"source:in-game_shop"}
+		flags = {"source:in-game_shop", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2148] = {
@@ -16014,7 +16036,7 @@ local MountData = {
 		currency = "Resonance Crystals",
 		vendor = "Auditor Balwurz",
 		zone = "Dornogal",
-		flags = {"source:vendor", "vendor:auditor_balwurz", "zone:dornogal", "cost:11375"}
+		flags = {"source:vendor", "vendor:auditor_balwurz", "zone:dornogal", "cost:11375", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2150] = {
@@ -16026,7 +16048,7 @@ local MountData = {
 		patch = "None",
 		mountType = 424,
 		currency = "Mark of Honor",
-		flags = {"source:unknown", "pvp:the_war_within_season_1rated_arena_and_rated_battleground_season_reward"}
+		flags = {"source:unknown", "pvp:the_war_within_season_1rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2152] = {
@@ -16039,7 +16061,7 @@ local MountData = {
 		mountType = 437,
 		currency = "Curious Coins",
 		source = "Trading Post",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2158] = {
@@ -16050,7 +16072,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.2",
 		mountType = 424,
-		flags = {"source:profession", "profession:khaz_algar_engineering"}
+		flags = {"source:profession", "profession:khaz_algar_engineering", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2159] = {
@@ -16062,7 +16084,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 424,
 		zone = "The Ringing Deeps",
-		flags = {"source:unknown", "zone:the_ringing_deeps"}
+		flags = {"source:unknown", "zone:the_ringing_deeps", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2162] = {
@@ -16077,7 +16099,7 @@ local MountData = {
 		currency = "Resonance Crystals",
 		vendor = "Waxmonger Squick",
 		zone = "The Ringing Deeps",
-		flags = {"source:vendor", "vendor:waxmonger_squick", "zone:the_ringing_deeps", "cost:11375"}
+		flags = {"source:vendor", "vendor:waxmonger_squick", "zone:the_ringing_deeps", "cost:11375", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2165] = {
@@ -16092,7 +16114,7 @@ local MountData = {
 		currency = "Sizzling Cinderpollen",
 		vendor = "Cendvin",
 		zone = "The Isle of Dorn",
-		flags = {"source:vendor", "vendor:cendvin", "zone:the_isle_of_dorn", "cost:900"}
+		flags = {"source:vendor", "vendor:cendvin", "zone:the_isle_of_dorn", "cost:900", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2167] = {
@@ -16105,7 +16127,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Ruffious's Bid",
 		category = "World",
-		flags = {"source:unknown", "achievement:ruffiouss_bid"}
+		flags = {"source:achievement", "achievement:ruffiouss_bid", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2171] = {
@@ -16119,7 +16141,7 @@ local MountData = {
 		cost = "2020",
 		currency = "Kej",
 		zone = "Azj-Kahet",
-		flags = {"source:unknown", "zone:azjkahet", "cost:2020"}
+		flags = {"source:unknown", "zone:azjkahet", "cost:2020", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2172] = {
@@ -16133,7 +16155,7 @@ local MountData = {
 		cost = "2020",
 		currency = "Kej",
 		zone = "Azj-Kahet",
-		flags = {"source:unknown", "zone:azjkahet", "cost:2020"}
+		flags = {"source:unknown", "zone:azjkahet", "cost:2020", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2174] = {
@@ -16147,7 +16169,7 @@ local MountData = {
 		cost = "2020",
 		currency = "Kej",
 		zone = "Azj-Kahet",
-		flags = {"source:unknown", "zone:azjkahet", "cost:2020"}
+		flags = {"source:unknown", "zone:azjkahet", "cost:2020", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2176] = {
@@ -16159,7 +16181,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 424,
 		zone = "Isle of Dorn",
-		flags = {"source:drop", "zone:isle_of_dorn", "drop:alunira", "boss:alunira"}
+		flags = {"source:drop", "zone:isle_of_dorn", "drop:alunira", "boss:alunira", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2177] = {
@@ -16174,7 +16196,7 @@ local MountData = {
 		currency = "Kej",
 		vendor = "Lady Vinazian",
 		zone = "Azj-Kahet",
-		flags = {"source:vendor", "vendor:lady_vinazian", "zone:azjkahet", "cost:3940"}
+		flags = {"source:vendor", "vendor:lady_vinazian", "zone:azjkahet", "cost:3940", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2178] = {
@@ -16186,7 +16208,7 @@ local MountData = {
 		patch = "11.1.5",
 		mountType = 424,
 		zone = "Vision of Stormwind (Revisited)",
-		flags = {"source:unknown", "zone:vision_of_stormwind_revisited_zone_vision_of_orgrimmar_revisited"}
+		flags = {"source:unknown", "zone:vision_of_stormwind_revisited_zone_vision_of_orgrimmar_revisited", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2180] = {
@@ -16199,7 +16221,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Nerub-ar Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_nerubar_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_nerubar_raider", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2181] = {
@@ -16213,7 +16235,7 @@ local MountData = {
 		class = "Hunter",
 		achievement = "Khaz Algar Glyph Hunter",
 		category = "War Within",
-		flags = {"source:unknown", "achievement:khaz_algar_glyph_hunter"}
+		flags = {"source:achievement", "achievement:khaz_algar_glyph_hunter", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2184] = {
@@ -16228,7 +16250,7 @@ local MountData = {
 		currency = "Kej",
 		vendor = "Lady Vinazian",
 		zone = "Azj-Kahet",
-		flags = {"source:vendor", "vendor:lady_vinazian", "zone:azjkahet", "cost:2815"}
+		flags = {"source:vendor", "vendor:lady_vinazian", "zone:azjkahet", "cost:2815", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2186] = {
@@ -16241,7 +16263,7 @@ local MountData = {
 		mountType = 436,
 		currency = "Curious Coins",
 		source = "Trading Post",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2187] = {
@@ -16254,7 +16276,7 @@ local MountData = {
 		mountType = 436,
 		currency = "Curious Coins",
 		source = "Trading Post",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2188] = {
@@ -16267,7 +16289,7 @@ local MountData = {
 		mountType = 436,
 		achievement = "The Derby Dash",
 		category = "Fishing",
-		flags = {"source:unknown", "achievement:the_derby_dash"}
+		flags = {"source:achievement", "achievement:the_derby_dash", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2189] = {
@@ -16280,7 +16302,7 @@ local MountData = {
 		mountType = 436,
 		currency = "Curious Coins",
 		source = "Trading Post",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2190] = {
@@ -16293,7 +16315,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "You Xal Not Pass",
 		category = "Exploration",
-		flags = {"source:unknown", "achievement:you_xal_not_pass"}
+		flags = {"source:achievement", "achievement:you_xal_not_pass", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2191] = {
@@ -16308,7 +16330,7 @@ local MountData = {
 		currency = "Resonance Crystals",
 		vendor = "Auralia Steelstrike",
 		zone = "Hallowfall",
-		flags = {"source:vendor", "vendor:auralia_steelstrike", "zone:hallowfall", "cost:11375"}
+		flags = {"source:vendor", "vendor:auralia_steelstrike", "zone:hallowfall", "cost:11375", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2192] = {
@@ -16320,7 +16342,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 424,
 		zone = "Hallowfall",
-		flags = {"source:drop", "zone:hallowfall", "drop:beledars_spawn", "boss:beledars_spawn"}
+		flags = {"source:drop", "zone:hallowfall", "drop:beledars_spawn", "boss:beledars_spawn", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2193] = {
@@ -16335,7 +16357,7 @@ local MountData = {
 		currency = "Resonance Crystals",
 		vendor = "Auralia Steelstrike",
 		zone = "Hallowfall",
-		flags = {"source:vendor", "vendor:auralia_steelstrike", "zone:hallowfall", "cost:8125"}
+		flags = {"source:vendor", "vendor:auralia_steelstrike", "zone:hallowfall", "cost:8125", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2194] = {
@@ -16347,7 +16369,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 230,
 		zone = "Hallowfall",
-		flags = {"source:drop", "zone:hallowfall", "drop:spreading_the_light", "boss:spreading_the_light"}
+		flags = {"source:expansion_feature", "expansion_feature:spreading_the_light", "zone:hallowfall", "drop:spreading_the_light", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2198] = {
@@ -16359,7 +16381,7 @@ local MountData = {
 		patch = "11.0.0",
 		mountType = 230,
 		currency = "Curious Coins",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2199] = {
@@ -16370,7 +16392,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.5",
 		mountType = 230,
-		flags = {"source:unknown"}
+		flags = {"source:unknown", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2200] = {
@@ -16382,7 +16404,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Curious Coins",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2201] = {
@@ -16394,7 +16416,7 @@ local MountData = {
 		patch = "11.0.0",
 		mountType = 230,
 		currency = "Curious Coins",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2202] = {
@@ -16406,7 +16428,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Curious Coins",
-		flags = {"source:trading_post"}
+		flags = {"source:trading_post", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2203] = {
@@ -16417,7 +16439,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.5",
 		mountType = 230,
-		flags = {"source:vendor"}
+		flags = {"source:vendor", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2204] = {
@@ -16429,7 +16451,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 230,
 		zone = "Darkflame Cleft (Mythic)",
-		flags = {"source:drop", "zone:darkflame_cleft_mythic", "drop:the_darkness", "boss:the_darkness"}
+		flags = {"source:drop", "zone:darkflame_cleft_mythic", "drop:the_darkness", "boss:the_darkness", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2205] = {
@@ -16441,7 +16463,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 230,
 		zone = "The Ringing Deeps",
-		flags = {"source:drop", "zone:the_ringing_deeps", "drop:lurker_of_the_deeps", "boss:lurker_of_the_deeps"}
+		flags = {"source:drop", "zone:the_ringing_deeps", "drop:lurker_of_the_deeps", "boss:lurker_of_the_deeps", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2209] = {
@@ -16456,7 +16478,7 @@ local MountData = {
 		currency = "Resonance Crystals",
 		vendor = "Waxmonger Squick",
 		zone = "The Ringing Deeps",
-		flags = {"source:vendor", "vendor:waxmonger_squick", "zone:the_ringing_deeps", "cost:8125"}
+		flags = {"source:vendor", "vendor:waxmonger_squick", "zone:the_ringing_deeps", "cost:8125", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2211] = {
@@ -16468,7 +16490,7 @@ local MountData = {
 		patch = "None",
 		mountType = 424,
 		currency = "Mark of Honor",
-		flags = {"pvp:the_war_within_season_1rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:the_war_within_season_1rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2213] = {
@@ -16509,7 +16531,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: The War Within Season 1",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_the_war_within_season_1"}
+		flags = {"source:achievement", "achievement:gladiator_the_war_within_season_1", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[2219] = {
@@ -16575,7 +16597,7 @@ local MountData = {
 		currency = "Timewarped Badge",
 		vendor = "Cupri",
 		zone = "Shattrath City",
-		flags = {"source:vendor", "vendor:cupri", "zone:shattrath_city", "cost:5000"}
+		flags = {"source:event", "event:timewalking", "vendor:cupri", "zone:shattrath_city", "cost:5000"}
 	},
 
 	[2230] = {
@@ -16587,7 +16609,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 424,
 		achievement = "Glory of the Delver",
-		flags = {"source:unknown", "achievement:glory_of_the_delver"}
+		flags = {"source:achievement", "achievement:glory_of_the_delver"}
 	},
 
 	[2232] = {
@@ -16610,7 +16632,7 @@ local MountData = {
 		patch = "11.0.2",
 		mountType = 230,
 		class = "Paladin",
-		flags = {"source:vendor"}
+		flags = {"source:class", "class:paladin"}
 	},
 
 	[2235] = {
@@ -16697,7 +16719,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "The War Within Keystone Master: Season One",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:the_war_within_keystone_master_season_one"}
+		flags = {"source:achievement", "achievement:the_war_within_keystone_master_season_one"}
 	},
 
 	[2249] = {
@@ -17067,7 +17089,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: The War Within Season 2",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_the_war_within_season_2"}
+		flags = {"source:achievement", "achievement:gladiator_the_war_within_season_2", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[2299] = {
@@ -17091,7 +17113,7 @@ local MountData = {
 		patch = "None",
 		mountType = 424,
 		currency = "Mark of Honor",
-		flags = {"pvp:the_war_within_season_2rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:the_war_within_season_2rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2301] = {
@@ -17184,7 +17206,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Liberation of Undermine Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_liberation_of_undermine_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_liberation_of_undermine_raider"}
 	},
 
 	[2315] = {
@@ -17248,7 +17270,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.0.7",
 		mountType = 402,
-		flags = {"source:unknown"}
+		flags = {"source:expansion_feature", "expansion_feature:plunderstorm"}
 	},
 
 	[2326] = {
@@ -17261,7 +17283,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Gladiator: The War Within Season 3",
 		category = "Player vs. Player",
-		flags = {"source:unknown", "achievement:gladiator_the_war_within_season_3"}
+		flags = {"source:achievement", "achievement:gladiator_the_war_within_season_3", "source:pvp", "pvp:gladiator", "pvp:arena"}
 	},
 
 	[2327] = {
@@ -17334,7 +17356,7 @@ local MountData = {
 		patch = "11.0.7",
 		mountType = 424,
 		zone = "Siren Isle",
-		flags = {"source:unknown", "zone:siren_isle", "achievement:isle_remember_you"}
+		flags = {"source:achievement", "zone:siren_isle", "achievement:isle_remember_you", "quest_story:siren_isle"}
 	},
 
 	[2333] = {
@@ -17372,7 +17394,7 @@ local MountData = {
 		mountType = 230,
 		achievement = "A Farewell to Arms",
 		category = "Expansion Features",
-		flags = {"source:unknown", "achievement:a_farewell_to_arms"}
+		flags = {"source:achievement", "achievement:a_farewell_to_arms"}
 	},
 
 	[2342] = {
@@ -17563,7 +17585,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "The War Within Keystone Master: Season Two",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:the_war_within_keystone_master_season_two"}
+		flags = {"source:achievement", "achievement:the_war_within_keystone_master_season_two"}
 	},
 
 	[2481] = {
@@ -17766,7 +17788,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Mastering the Visions\n",
 		category = "Visions of N'Zoth Revisited",
-		flags = {"source:unknown", "achievement:mastering_the_visionsn"}
+		flags = {"source:achievement", "achievement:mastering_the_visionsn"}
 	},
 
 	[2501] = {
@@ -17842,7 +17864,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "The War Within Keystone Legend: Season Two",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:the_war_within_keystone_legend_season_two"}
+		flags = {"source:achievement", "achievement:the_war_within_keystone_legend_season_two"}
 	},
 
 	[2510] = {
@@ -17866,7 +17888,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Vigilante",
 		category = "War Within",
-		flags = {"source:unknown", "achievement:vigilante"}
+		flags = {"source:achievement", "achievement:vigilante"}
 	},
 
 	[2512] = {
@@ -17891,7 +17913,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Master of the Turbulent Timeways III",
 		category = "Timewalking",
-		flags = {"source:unknown", "achievement:master_of_the_turbulent_timeways_iii"}
+		flags = {"source:achievement", "achievement:master_of_the_turbulent_timeways_iii"}
 	},
 
 	[2519] = {
@@ -18041,7 +18063,7 @@ local MountData = {
 		expansion = "The War Within",
 		patch = "11.1.5",
 		mountType = 230,
-		flags = {"source:quest", "quest:another_amazing_weekevent_dastardly_duos"}
+		flags = {"source:expansion_feature", "expansion_feature:dastardly_duos", "quest:another_amazing_weekevent_dastardly_duos"}
 	},
 
 	[2535] = {
@@ -18066,7 +18088,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Glory of the Omega Raider",
 		category = "Dungeons & Raids",
-		flags = {"source:unknown", "achievement:glory_of_the_omega_raider"}
+		flags = {"source:achievement", "achievement:glory_of_the_omega_raider"}
 	},
 
 	[2552] = {
@@ -18167,7 +18189,7 @@ local MountData = {
 		patch = "None",
 		mountType = 230,
 		currency = "Mark of Honor",
-		flags = {"pvp:the_war_within_season_3rated_arena_and_rated_battleground_season_reward"}
+		flags = {"pvp:the_war_within_season_3rated_arena_and_rated_battleground_season_reward", "source:pvp", "currency:marks_of_honor", "pvp:marks_of_honor"}
 	},
 
 	[2572] = {
@@ -18374,7 +18396,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "Titan Console Overcharged",
 		category = "The War Within",
-		flags = {"source:unknown", "achievement:titan_console_overcharged"}
+		flags = {"source:achievement", "achievement:titan_console_overcharged"}
 	},
 
 	[2605] = {
@@ -18578,7 +18600,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "The War Within Keystone Legend: Season Three",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:the_war_within_keystone_legend_season_three"}
+		flags = {"source:achievement", "achievement:the_war_within_keystone_legend_season_three"}
 	},
 
 	[2633] = {
@@ -18591,7 +18613,7 @@ local MountData = {
 		mountType = 424,
 		achievement = "The War Within Keystone Master: Season Three",
 		category = "Dungeons",
-		flags = {"source:unknown", "achievement:the_war_within_keystone_master_season_three"}
+		flags = {"source:achievement", "achievement:the_war_within_keystone_master_season_three"}
 	},
 
 	[2640] = {
